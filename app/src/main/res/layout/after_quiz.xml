@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/blue_quiz"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvQue"
+        android:text="Question1"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_option_AQ">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:id="@+id/rb_option1" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:id="@+id/rb_option2" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:id="@+id/rb_option3" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:id="@+id/rb_option4" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCorrectAns"
+        android:text="Question1"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:visibility="gone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:id="@+id/buttonNext_AQ"
+        android:layout_gravity="end"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+
+</LinearLayout>

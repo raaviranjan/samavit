@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:fillViewport="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/bEnterAsUser"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_lang"
+        android:gravity="center"
+        android:text="@string/enter_as_user"
+        android:textColor="@color/blue"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:id="@+id/or"
+        android:textSize="20sp"
+        android:layout_marginTop="18dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/bManageGrp"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/border_lang"
+        android:gravity="center"
+        android:text="@string/manage_grps"
+        android:textColor="@color/blue"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="18dp"
+        android:weightSum="100"
+        android:id="@+id/llExistingAndNewGrp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/bExistingGrp"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/border_grp"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:text="@string/existing_groups"
+            android:textColor="@color/blue"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        <Button
+            android:id="@+id/bNewGrp"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_grp"
+            android:gravity="center"
+            android:layout_weight="50"
+            android:text="@string/new_group"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/blue"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language">हिंदी</string>
+    <string name="profile">उपयोगकर्ता प्रोफ़ाइल</string>
+    <string name="gender">लिंग</string>
+    <string name="male">पुरुष</string>
+    <string name="female">महिला</string>
+    <string name="other">अन्य</string>
+    <string name="age">आयु</string>
+    <string name="education">शिक्षा</string>
+    <string name="occupation">कारोबार</string>
+    <string name="locality">इलाका</string>
+    <string name="rural">ग्रामीण</string>
+    <string name="semi_urban">अर्ध-शहरी</string>
+    <string name="urban">शहरी</string>
+    <string name="state">राज्य</string>
+    <string name="district">जिला</string>
+    <string name="doneButton">हो गया</string>
+
+    <string name="module1">वित्तीय योजना और बजट</string>
+    <string name="module2">बचत</string>
+    <string name="module3">ऋण</string>
+    <string name="module4">बीमा</string>
+    <string name="module5">पेंशन</string>
+    <string name="module6">डिजिटल लेनदेन</string>
+    <string name="module7">जागो ग्राहक जागो</string>
+    <string name="module8">मुद्रा साक्षरता</string>
+    <string name="module9">अन्य</string>
+
+    <string name="about_us">हमारे बारे में</string>
+    <string name="rate_us">हमें रेटिंग दें\u0020\u0020</string>
+    <string name="version">संस्करण: 1.1</string>
+    <string name="vdo_views">बार देखा</string>
+    <string name="wait">इंतज़ार करें...</string>
+    <string name="fill_all">सब भरें</string>
+    <string name="viewed">देखा:</string>
+    <string name="total">कुल:</string>
+    <string name="initial_viewed1">देखा:\u0020\u00200\u0020\u0020\u0020\u0020कुल:\u0020\u00201</string>
+    <string name="initial_viewed2">देखा:\u0020\u00200\u0020\u0020\u0020\u0020कुल:\u0020\u00202</string>
+    <string name="initial_viewed6">देखा:\u0020\u00200\u0020\u0020\u0020\u0020कुल:\u0020\u00206</string>
+    <string name="initial_viewed7">देखा:\u0020\u00200\u0020\u0020\u0020\u0020कुल:\u0020\u00207</string>
+    <string name="initial_viewed9">देखा:\u0020\u00200\u0020\u0020\u0020\u0020कुल:\u0020\u00209</string>
+
+    <string name="mfi">एमएफआई</string>
+    <string name="mfisubmit">हो गया</string>
+    <string name="mfi_field_staff">एमएफआई फील्ड स्टाफ</string>
+    <string name="name_of_branch">शाखा का नाम</string>
+    <string name="branch_id">शाखा आईडी</string>
+    <string name="name">नाम</string>
+    <string name="designation">पद</string>
+    <string name="id_staff">स्टाफ आईडी</string>
+    <string name="location">स्थान</string>
+    <string name="geo_location">भौगोलिक स्थान</string>
+
+    <string name="identify_yourself">अपनी पहचान बताएं</string>
+    <string name="mfi_staff">एमएफआई स्टाफ</string>
+    <string name="mfi_client">एमएफआई क्लाइंट</string>
+    <string name="shg_member">एसएचजी सदस्य</string>
+    <string name="others">अन्य</string>
+    <string name="kids">बच्चे</string>
+    <string name="group_registration">समूह पंजीकरण</string>
+    <string name="t_group_name">समूह का नाम</string>
+    <string name="centre_group_id">केंद्र / समूह आईडी</string>
+    <string name="total_member">कुल सदस्य</string>
+    <string name="enter_as_user">उपयोगकर्ता के रूप में प्रवेश करें</string>
+    <string name="manage_grps">समूह प्रबंधित करें</string>
+    <string name="or">या</string>
+    <string name="existing_groups">मौजूदा समूह</string>
+    <string name="new_group">नया समूह</string>
+    <string name="take_attendance">उपस्थिति लें</string>
+    <string name="date">तारीख</string>
+    <string name="no_of_members_present">उपस्थित सदस्यों की संख्या</string>
+    <string name="time">समय</string>
+    <string name="group_name_module">समूह का नाम :\n</string>
+    <string name="group_id_module">समूह आईडी :\n</string>
+    <string name="select_grp">समूह चुनें</string>
+    <string name="toast">कृपया समूह का नाम और आईडी भरें</string>
+    <string name="specify_MFI">एमएफआई का नाम लिखें</string>
+    <string name="specify_designation">पद का नाम लिखें</string>
+    <string name="whose_customer_are_you">आप किसके ग्राहक हैं?</string>
+    <string name="how_did_you_know_about_the_app">आप ऐप के बारे में कैसे जानते थे?</string>
+    <string name="video_source">स्रोत:\u0020</string>
+    <string name="video_duration">अवधि:\u0020</string>
+    <string name="before_watching_vdo">इस वीडियो को देखने से पहले कृपया कुछ सरल प्रश्नों का उत्तर दें ...</string>
+    <string name="proceed">आगे बढे</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="next">अगला</string>
+    <string name="correct_answer">!!! सही जवाब !!!</string>
+    <string name="ans_should_b">!!! जवाब होना चाहिए \'</string>
+    <string name="please_select_an_option">कृपया एक विकल्प चुनें</string>
+    <string name="what_u_learnt_from_vdo">चलिए देखते हैं, आपने इस वीडियो से क्या सीखा?</string>
+    <string name="result">परिणाम</string>
+
+    <string name="views">0 बार देखा</string>
+    <string name="family1">वित्तीय योजना और लक्ष्य</string>
+    <string name="family2">बजट और वित्तीय डायरी</string>
+    <string name="saving1">प्रधानमंत्री जन धन योजना</string>
+    <string name="saving2">बुनियादी बचत बैंक जमा खाता (BSBDA)</string>
+    <string name="loan1">सुविचारित कर्ज</string>
+    <string name="loan2">ऋण साक्षरता</string>
+    <string name="insurance1">प्रधानमंत्री जीवन ज्योति बीमा योजना</string>
+    <string name="insurance2">प्रधानमंत्री जीवन जन सुरक्षा बीमा योजना</string>
+    <string name="atal">अटल पेंशन योजना</string>
+    <string name="pension1">अटल पेंशन योजना – विडियो 1</string>
+    <string name="pension2">अटल पेंशन योजना – विडियो 2</string>
+    <string name="digital1">एटीएम (ATM)</string>
+    <string name="microatm">माइक्रो एटीएम</string>
+    <string name="ussd">यूएसएसडी (*99#)</string>
+    <string name="aeps">आधार सक्षम भुगतान प्रणाली (AEPS)</string>
+    <string name="digital4">रुपे पीओएस (RuPay POS)</string>
+    <string name="bhim">भीम (BHIM) एप</string>
+    <string name="digital6">ई-वॉलेट</string>
+    <string name="consumer1">ऋण शिकायत निवारण</string>
+    <string name="consumer2">बीमा शिकायत निवारण</string>
+    <string name="consumer3">एटीएम डेबिट कार्ड - धोखाधड़ी और निवारण</string>
+    <string name="consumer4">डिजिटल धोखाधड़ी होने पे क्या करें</string>
+    <string name="consumer5">डिजिटल धोखाधड़ी होने पे क्या करें</string>
+    <string name="consumer6">ईमेल(Email) द्वारा धोखाधड़ी</string>
+    <string name="consumer7">फ़ोन द्वारा धोखाधड़ी</string>
+    <string name="currency1">100 रुपये की सुरक्षा विशेषताएं</string>
+    <string name="currency2">500 रुपये और 2000 रुपये की सुरक्षा विशेषताएं</string>
+    <string name="other1">वित्तीय योजना</string>
+    <string name="other2">वित्तीय योजना और लक्ष्य </string>
+    <string name="other3">बचत</string>
+    <string name="other4">बैंक में बचत</string>
+    <string name="other5">प्रधानमंत्री जन धन योजना (PMJDY)</string>
+    <string name="other6">ऋण माफ़ी अफवाह</string>
+    <string name="other7">ऋण</string>
+    <string name="other8">ऋण - साहूकार और बैंक</string>
+    <string name="other9">प्रधानमंत्री मुद्रा योजना </string>
+    <string name="other10">राष्ट्रीय स्वास्थ्य बीमा योजना</string>
+    <string name="other11">प्रधानमंत्री फसल बीमा योजना </string>
+    <string name="other12">सामाजिक सुरक्षा योजना </string>
+    <string name="other13">प्रधानमंत्री जीवन ज्योति बिमा योजना </string>
+    <string name="pjsby"> प्रधानमंत्री जन सुरक्षा बिमा योजना (दुर्घटना बीमा)</string>
+    <string name="other14">अटल पेंशन योजना</string>
+    <string name="other15">राष्ट्रीय पेंशन सिस्टम </string>
+    <string name="other16">राष्ट्रीय पेंशन सिस्टम – स्वाबलंबन</string>
+    <string name="other17">रु पे डेबिट कार्ड और ओवर ड्राफ्ट सुविधा </string>
+    <string name="other18">एटीएम</string>
+    <string name="other19">यूएसएसडी (*99#)</string>
+    <string name="other20">आधार सक्षम भुगतान प्रणाली (AEPS)</string>
+    <string name="other21">बैंक से जुड़ने के फायदे</string>
+    <string name="other22">बिज़नस कॉरेसपॉंडेंट</string>
+    <string name="other23">कंपाउंडिंग की शक्ति - 1</string>
+    <string name="other24">कंपाउंडिंग की शक्ति - 2</string>
+    <string name="other25">मुद्रास्फीति दानव</string>
+    <string name="other26">सेवानिवृत्ति योजना</string>
+    <string name="other27">एसआईपी</string>
+    <string name="other28">जोखिम और पुरस्कार</string>
+    <string name="other29">म्यूचुअल फंड</string>
+
+    <string name="other_module1">वित्तीय योजना और बजट</string>
+    <string name="other_module2">वित्तीय उत्पाद</string>
+    <string name="other_module3">केवाईसी</string>
+    <string name="other_module4">बचत</string>
+    <string name="other_module5">ऋण</string>
+    <string name="other_module6">बीमा और पेंशन</string>
+    <string name="other_module7">डिजिटल लेनदेन</string>
+    <string name="other_module8">अन्य</string>
+
+    <string name="do_you_like_this_video">क्या आप इस वीडियो को पसंद करते हैं?</string>
+    <string name="no">नहीं</string>
+    <string name="yes">हाँ</string>
+    <string name="compulsory">अनिवार्य</string>
+    <string name="supplementary_vidoes">पूरक</string>
+    <string name="desirable">ऐच्छिक</string>
+    <string name="loan">उत्तरदायी ऋण </string>
+    <string name="insurance">बीमा</string>
+    <string name="digital_transaction">डिजिटल लेन-देन</string>
+    <string name="pension">पेंशन</string>
+    <string name="financial_planning_and_budgeting">पारिवारिक बजट और योजना </string>
+    <string name="consumer_beware">जागो ग्राहक जागो</string>
+    <string name="currency_literacy">मुद्रा साक्षरता</string>
+    <string name="choices">विकल्प</string>
+    <string name="client_id">क्लाइंट आईडी</string>
+
+    <string-array name="before_questions">
+        <item>हमें आज में जीना चाहिए, कल की कल देखेंगे।</item><!--वित्तीय योजना और लक्ष्य:-->
+        <item>मुझे पैसे बचाने से ज्यादा खर्च करना अच्छा लगता है।</item>
+        <item>हमें केवल उन चीज़ों को खरीदना चाहिए जिन्हें खरीदने में हम समर्थ हों।</item><!--बजट और वित्तीय डायरी:-->
+        <item>मेरे लिए गैर जरुरी और जरुरी वस्तुओं में अंतर है।</item>
+        <item>मेरे पास बचाने के लिए पैसे है।</item><!--प्रधानमंत्री जन धन योजना:-->
+        <item>मैं हर हफ्ते पैसे बचाने की कोशिश करती/करता हूं।</item>
+        <item>हमें बचत छोटी राशि से शुरू करनी चाहिए।</item><!-- बी एस बी डी खाता (BSBDA):-->
+        <item>हमें कम उम्र में ही बचत करना शुरू कर देनी चाहिए।</item>
+        <item>ऋण लेने के लिए कौन से दस्तावेजों वैध केवाईसी माने जाते है?</item><!-- सुविचारित कर्ज:-->
+        <item>उतना ही ऋण लें जितना आप समय पर चुका सकते हैं।</item>
+        <item>ऋण की चुकौती करनी चाहिए-</item><!--ऋण साक्षरता:-->
+        <item>ऋण का भुगतान किया जाना चाहिए ___</item>
+        <item>मेरे और मेरे परिवार के लिए बीमा जरुरी है।</item><!--प्रधानमंत्री जीवन ज्योति बीमा योजना:-->
+        <item>प्रधानमंत्री जीवन ज्‍योति बीमा योजना (PMJJBY) क्‍या है?</item>
+        <item>प्रधानमंत्री जन सुरक्षा बीमा योजना के लिए प्रति वर्ष प्रीमियम ......... है</item><!--प्रधानमंत्री जीवन सुरक्षा बीमा योजना:-->
+        <item>प्रधानमंत्री सुरक्षा बीमा सुरक्षा योजना (PMSBY) क्‍या है?</item>
+        <item>मुझे अटल पेंशन योजना के बारे में जानकारी है?</item><!--अटल पेंशन योजना 1:-->
+        <item>मुझे पेंशन की जरूरत है।</item>
+        <item>मेरे परिवार ने अटल पेंशन योजना में खाता खुलवाई हुई है|</item><!--अटल पेंशन योजना 2:-->
+        <item>अटल पेंशन सुविधा केवल सरकारी कर्मचारियों के लिए उपलब्ध हैं।</item>
+        <item>रुपे कार्ड क्या है?</item><!--Rupay card-->
+        <item>मैं अपने एटीएम पिन मित्रों और परिवार के सदस्यों के साथ साझा करती/करता हूं।</item>
+        <item>आधार कार्ड क्या है?</item><!--AEPS-->
+        <item>क्या हम आधार नंबर से बैंकिंग लेनदेन कर सकते हैं?</item>
+        <item>क्या आप साधारण मोबाइल फोन का उपयोग (बिना इन्टरनेट के) कर बैंकिंग लेनदेन कर सकते हैं?</item><!--USSD-->
+        <item>क्या आप *99# के बारे में जानते हैं?</item>
+        <item>भीम(BHIM) ऐप क्या है?</item><!--BHIM-->
+        <item>क्या भीम(BHIM) ऐप के बारे में सुना है?</item>
+        <item>पीओएस मशीन क्या है?</item><!--Rupay POS-->
+        <item>भुगतान करने के लिए रुपे कार्ड का उपयोग किया जा सकता है___</item>
+        <item>ई-वॉलेट के बारे में मैंने सुना है</item><!--e-wallet-->
+        <item>ई-वॉलेट पैसे रखने और लेन-देन के लिए एक प्रकार का एक इलेक्ट्रॉनिक बटुआ है|</item>
+        <item>अगर मेरे साथ कोई मीक्रोफिनांस संस्था का अधिकारी दुर्व्यवहार करता है तो मुझे पता है की मुझे कहाँ शिकायत करनी चाहिए|</item><!--ऋण शिकायत निवारण -->
+        <item>अगर में माइक्रो फाइनेंस संस्था के अधिकारी के द्वारा किये गए बुरे व्यवहार के बारे में शिकायत करती हूँ, तो शायद मुझे उस माइक्रो फाइनेंस संस्था से दुबारा ऋण न मिले|</item>
+        <item>मैं बीमा समझौते के पेपर के नियम और शर्त को पढ़ता/पढ़ती हूँ।</item><!--बीमा शिकायत निवारण -->
+        <item>जीवन बीमा का तात्‍पर्य__</item>
+        <item>क्या आप किसी के साथ एटीएम कार्ड का विवरण साझा करते हैं?</item><!--एटीएम डेबिट कार्ड - धोखाधड़ी और निवारण-->
+        <item>मुझे पता है कि एटीएम कार्ड सम्बंधित नुकसान होने पर कहां शिकायत करें।</item>
+        <item>क्या आप धोखाधड़ी होने के बाद अपनी जिम्मेदारी जानते हैं?</item><!--डिजिटल धोखाधड़ी होने पे क्या करें (Remedies):-->
+        <item>धोखाधड़ी होने के बाद हमें चुपचाप बैठ जाना चाहिए।</item>
+        <item>अगर आपको फ़िशिंग ईमेल प्राप्त होता है तो आपको उनके लिंक पर क्लिक करना चाहिए और अपनी जानकारी भेजनी चाहिए।</item><!--ईमेल (email) द्वारा धोखाधड़ी:-->
+        <item>"आपके खाता का उपयोग किया गया है" ये वाक्य जालसाज आपको एक लिंक में भेजेगा ताकि आप उसपर क्लिक करें।</item>
+        <item>हमे फोन पर किसी के भी द्वारा पूछे जाने पर अकाउंट की जानकारी दे देनी चाहिए।</item><!--फ़ोन द्वारा धोखाधड़ी: -->
+        <item>फोन फ्रॉड से बचने का सबसे अच्छा तरीका जागरूक होना है।</item>
+        <item>कटे-फटे नोट</item><!--Security of 100-->
+        <item>काउंटर पर जाली नोटों का पता चलने पर बैंक द्वारा___</item>
+        <item>किनके द्वारा सिक्‍के जारी किये जाते हैं?</item><!--Security of 500 2000-->
+        <item>करेंसी नोट में क्या लिखना प्रतिबंधित है?</item>
+    </string-array>
+
+    <string-array name="before_optionA">
+        <item>हां</item><!--ित्तीय योजना और लक्ष्य:-->
+        <item>हां</item>
+        <item>हां</item><!--बजट और वित्तीय डायरी:-->
+        <item>हां</item>
+        <item>हां</item><!--्रधानमंत्री जन धन योजना:-->
+        <item>हां</item>
+        <item>सहमत</item><!-- बी एस बी डी खाता (BSBDA):-->
+        <item>सहमत</item>
+        <item>आधार कार्ड</item><!-- सुविचारित कर्ज:-->
+        <item>सहमत</item>
+        <item>व्यापार से हुए लाभ से</item><!--ऋण साक्षरता:-->
+        <item>समय पर</item>
+        <item>सहमत</item><!--प्रधानमंत्री जीवन ज्योति बीमा योजना:-->
+        <item>रू. 2 लाख तक जीवन बीमा कवर</item>
+        <item>120 रुपये</item><!--्रधानमंत्री जीवन सुरक्षा बीमा योजना:-->
+        <item>दुर्धटना बीमा कवर</item>
+        <item>हां</item><!--अटल पेंशन योजना1:-->
+        <item>हां</item>
+        <item>हां</item><!--अटल पेंशन योजना1:-->
+        <item>हां</item>
+        <item>विवाह कार्ड</item><!--Rupay card-->
+        <item>हां</item>
+        <item>विवाह कार्ड</item><!--AEPS-->
+        <item>हां</item>
+        <item>हां</item><!--USSD-->
+        <item>हां</item>
+        <item>भगवान</item><!--BHIM-->
+        <item>हां</item>
+        <item>इलेक्ट्रॉनिक भुगतान उपकरण</item><!--Rupay POS-->
+        <item>किराना स्टोर पर</item>
+        <item>हां</item><!--e-wallet-->
+        <item>हां</item>
+        <item>हां</item><!--ऋण शिकायत निवारण -->
+        <item>हां</item>
+        <item>हां</item><!--बीमा शिकायत निवारण -->
+        <item>मानव का बीमा</item>
+        <item>हां</item><!--एटीएम डेबिट कार्ड - धोखाधड़ी और निवारण-->
+        <item>हां</item>
+        <item>हां</item><!--डिजिटल धोखाधड़ी होने पे क्या करें (Remedies):-->
+        <item>हां</item>
+        <item>हां</item><!--ईमेल (email) द्वारा धोखाधड़ी:-->
+        <item>हां</item>
+        <item>हां</item><!--फ़ोन द्वारा धोखाधड़ी: -->
+        <item>हां</item>
+        <item>जला देने चाहिए</item><!--Security of 100-->
+        <item>नोट ग्राहक को वा‍पिस कर देने चाहिए</item>
+        <item>भारत सरकार</item><!--Security of 500 2000-->
+        <item>राजनितिक संदेश</item>
+    </string-array>
+
+    <string-array name="before_optionB">
+        <item>नहीं</item><!--ित्तीय योजना और लक्ष्य:-->
+        <item>नहीं</item>
+        <item>नहीं</item><!--बजट और वित्तीय डायरी:-->
+        <item>नहीं</item>
+        <item>नहीं</item><!--्रधानमंत्री जन धन योजना:-->
+        <item>नहीं</item>
+        <item>असहमत</item><!-- बी एस बी डी खाता (BSBDA):-->
+        <item>असहमत</item>
+        <item>मतदाता पहचान</item><!-- सुविचारित कर्ज:-->
+        <item>असहमत</item>
+        <item>दोस्त के ऋण से</item><!--ऋण साक्षरता:-->
+        <item>देय दिन के बाद</item>
+        <item>असहमत</item><!--प्रधानमंत्री जीवन ज्योति बीमा योजना:-->
+        <item>दुर्धटना बीमा कवर</item>
+        <item>1200 रुपये</item><!--्रधानमंत्री जीवन सुरक्षा बीमा योजना:-->
+        <item>जीवन बीमा कवर</item>
+        <item>नहीं</item><!--अटल पेंशन योजना1:-->
+        <item>नहीं</item>
+        <item>नहीं</item><!--अटल पेंशन योजना2:-->
+        <item>नहीं</item>
+        <item>एटीएम-सह-डेबिट कार्ड</item><!--Rupay card-->
+        <item>नहीं</item>
+        <item>एटीएम-सह-डेबिट कार्ड</item><!--AEPS-->
+        <item>नहीं</item>
+        <item>नहीं</item><!--USSD-->
+        <item>नहीं</item>
+        <item>मोबाइल ऐप</item><!--BHIM-->
+        <item>नहीं</item>
+        <item>एटीएम मशीन</item><!--Rupay POS-->
+        <item>पेट्रोल पंप पर</item>
+        <item>नहीं</item><!--e-wallet-->
+        <item>नहीं</item>
+        <item>नहीं</item><!--ऋण शिकायत निवारण -->
+        <item>नहीं</item>
+        <item>नहीं</item><!--बीमा शिकायत निवारण -->
+        <item>मानव एवं पशु का जीवन बीमा</item>
+        <item>नहीं</item><!--एटीएम डेबिट कार्ड - धोखाधड़ी और निवारण-->
+        <item>नहीं</item>
+        <item>नहीं</item><!--डिजिटल धोखाधड़ी होने पे क्या करें (Remedies):-->
+        <item>नहीं</item>
+        <item>नहीं</item><!--ईमेल (email) द्वारा धोखाधड़ी:-->
+        <item>नहीं</item>
+        <item>नहीं</item><!--फ़ोन द्वारा धोखाधड़ी: -->
+        <item>नहीं</item>
+        <item>फेंक देने चाहिए</item><!--Security of 100-->
+        <item>सही नोट से बदल देने चाहिए</item>
+        <item>भारतीय रिज़र्व बैंक</item><!--Security of 500 2000-->
+        <item>धार्मिक संदेश</item>
+    </string-array>
+
+    <string-array name="before_optionC">
+        <item></item><!--ित्तीय योजना और लक्ष्य:-->
+        <item></item>
+        <item></item><!--बजट और वित्तीय डायरी:-->
+        <item></item>
+        <item></item><!--्रधानमंत्री जन धन योजना:-->
+        <item></item>
+        <item>सुनिश्चित नहीं है</item><!-- बी एस बी डी खाता (BSBDA):-->
+        <item>सुनिश्चित नहीं है</item>
+        <item>ड्राइविंग लाइसेंस</item><!-- सुविचारित कर्ज:-->
+        <item>सुनिश्चित नहीं है</item>
+        <item>साहूकार के ऋण से</item><!--ऋण साक्षरता:-->
+        <item>कभी भी, जब पैसे हों</item>
+        <item>सुनिश्चित नहीं है</item><!--प्रधानमंत्री जीवन ज्योति बीमा योजना:-->
+        <item>दोनों</item>
+        <item>12 रुपये</item><!--्रधानमंत्री जीवन सुरक्षा बीमा योजना:-->
+        <item>उपरोक्‍त में से कोई नहीं</item>
+        <item></item><!--अटल पेंशन योजना1:-->
+        <item></item>
+        <item></item><!--अटल पेंशन योजना2:-->
+        <item></item>
+        <item>विज़िटिंग कार्ड</item><!--Rupay card-->
+        <item>मैं एटीएम कार्ड का उपयोग नहीं करती/करता हूं</item>
+        <item>अद्वितीय पहचान पत्र</item><!--AEPS-->
+        <item></item>
+        <item></item><!--USSD-->
+        <item></item>
+        <item>दोनों</item><!--BHIM-->
+        <item></item>
+        <item>इनमें से कोई भी नहीं</item><!--Rupay POS-->
+        <item>होटल पर</item>
+        <item></item><!--e-wallet-->
+        <item></item>
+        <item></item><!--ऋण शिकायत निवारण -->
+        <item></item>
+        <item></item><!--बीमा शिकायत निवारण -->
+        <item>मशीन का बीमा</item>
+        <item></item><!--एटीएम डेबिट कार्ड - धोखाधड़ी और निवारण-->
+        <item></item>
+        <item></item><!--डिजिटल धोखाधड़ी होने पे क्या करें (Remedies):-->
+        <item></item>
+        <item></item><!--ईमेल (email) द्वारा धोखाधड़ी:-->
+        <item></item>
+        <item></item><!--फ़ोन द्वारा धोखाधड़ी: -->
+        <item></item>
+        <item>बैंक में बदले जा सकते हैं</item><!--Security of 100-->
+        <item>नोट को जब्‍त करके रसीद देनी चाहिए</item>
+        <item>भारतीय स्‍टेट बैंक</item><!--Security of 100-->
+        <item>व्‍यक्तिगत संदेश</item>
+    </string-array>
+
+    <string-array name="before_optionD">
+        <item></item><!--ित्तीय योजना और लक्ष्य:-->
+        <item></item>
+        <item></item><!--बजट और वित्तीय डायरी:-->
+        <item></item>
+        <item></item><!--्रधानमंत्री जन धन योजना:-->
+        <item></item>
+        <item></item><!-- बी एस बी डी खाता (BSBDA):-->
+        <item></item>
+        <item>सभी</item><!-- सुविचारित कर्ज:-->
+        <item></item>
+        <item></item><!--ऋण साक्षरता:-->
+        <item></item>
+        <item></item><!--प्रधानमंत्री जीवन ज्योति बीमा योजना:-->
+        <item>उपरोक्‍त में से कोई नहीं</item>
+        <item></item><!--्रधानमंत्री जीवन सुरक्षा बीमा योजना:-->
+        <item></item>
+        <item></item><!--अटल पेंशन योजना1:-->
+        <item></item>
+        <item></item><!--अटल पेंशन योजना2:-->
+        <item></item>
+        <item></item><!--Rupay card-->
+        <item></item>
+        <item></item><!--AEPS-->
+        <item></item>
+        <item></item><!--USSD-->
+        <item></item>
+        <item></item><!--BHIM-->
+        <item></item>
+        <item></item><!--Rupay POS-->
+        <item>इनमें से सभी</item>
+        <item></item><!--e-wallet-->
+        <item></item>
+        <item></item><!--ऋण शिकायत निवारण -->
+        <item></item>
+        <item></item><!--बीमा शिकायत निवारण -->
+        <item>उपरोक्‍त सभी</item>
+        <item></item><!--एटीएम डेबिट कार्ड - धोखाधड़ी और निवारण-->
+        <item></item>
+        <item></item><!--डिजिटल धोखाधड़ी होने पे क्या करें (Remedies):-->
+        <item></item>
+        <item></item><!--ईमेल (email) द्वारा धोखाधड़ी:-->
+        <item></item>
+        <item></item><!--फ़ोन द्वारा धोखाधड़ी: -->
+        <item></item>
+        <item>उपरोक्‍त में से कोई नहीं</item><!--Security of 100-->
+        <item>खाते में जमा कर देने चाहिए</item>
+        <item>नाबार्ड</item><!--Security of 100-->
+        <item>उपरोक्‍त सभी</item>
+    </string-array>
+
+    <string-array name="before_answer">
+        <item>नहीं</item><!--ित्तीय योजना और लक्ष्य:-->
+        <item>नहीं</item>
+        <item>हां</item><!--बजट और वित्तीय डायरी:-->
+        <item>हां</item>
+        <item>नहीं</item><!--्रधानमंत्री जन धन योजना:-->
+        <item>हां</item>
+        <item>सहमत</item><!-- बी एस बी डी खाता (BSBDA):-->
+        <item>सहमत</item>
+        <item>दोनों</item><!-- सुविचारित कर्ज:-->
+        <item>सहमत</item>
+        <item>व्यापार से हुए लाभ से</item><!--ऋण साक्षरता:-->
+        <item>समय पर</item>
+        <item>सहमत</item><!--प्रधानमंत्री जीवन ज्योति बीमा योजना:-->
+        <item>दोनों</item>
+        <item>12 रुपये</item><!--्रधानमंत्री जीवन सुरक्षा बीमा योजना:-->
+        <item>दुर्धटना बीमा कवर</item>
+        <item>हां</item><!--अटल पेंशन योजना1:-->
+        <item>हां</item>
+        <item>हां</item><!--अटल पेंशन योजना2:-->
+        <item>नहीं</item>
+        <item>एटीएम-सह-डेबिट कार्ड</item><!--Rupay card-->
+        <item>नहीं</item>
+        <item>अद्वितीय पहचान पत्र</item><!--AEPS-->
+        <item>हां</item>
+        <item>हां</item><!--USSD-->
+        <item>हां</item>
+        <item>मोबाइल ऐप</item><!--BHIM-->
+        <item>हां</item>
+        <item>इलेक्ट्रॉनिक भुगतान उपकरण</item><!--Rupay POS-->
+        <item>इनमें से सभी</item>
+        <item>हां</item><!--e-wallet-->
+        <item>हां</item>
+        <item>हां</item><!--ऋण शिकायत निवारण -->
+        <item>नहीं</item>
+        <item>हां</item><!--बीमा शिकायत निवारण -->
+        <item>मानव का बीमा</item>
+        <item>नहीं</item><!--एटीएम डेबिट कार्ड - धोखाधड़ी और निवारण-->
+        <item>हां</item>
+        <item>हां</item><!--डिजिटल धोखाधड़ी होने पे क्या करें (Remedies):-->
+        <item>नहीं</item>
+        <item>नहीं</item><!--ईमेल (email) द्वारा धोखाधड़ी:-->
+        <item>हां</item>
+        <item>नहीं</item><!--फ़ोन द्वारा धोखाधड़ी: -->
+        <item>हां</item>
+        <item>बैंक में बदले जा सकते हैं</item><!--Security of 100-->
+        <item>नोट को जब्‍त करके रसीद देनी चाहिए</item>
+        <item>भारत सरकार</item><!--Security of 500 2000-->
+        <item>उपरोक्‍त सभी</item>
+    </string-array>
+
+    <string-array name="after_question">
+        <item>क्या \"फिजूलखर्ची घटाएं अपनी बचत बढ़ाएं\“ कहावत सही है?</item><!--ित्तीय योजना और लक्ष्य:-->
+        <item>क्या हमें वित्तीय योजना बनानी चाहिए?</item>
+        <item>क्या हमे बजट से अधिक खर्च करना चाहिए?</item><!--बजट और वित्तीय डायरी:-->
+        <item>हिसाब-किताब करने से हमें क्या पता चलता है।</item>
+        <item>पीएमजेडीवाई(PMJDY) के अंतर्गत क्‍या लाभ जुड़े हैं?</item><!--्रधानमंत्री जन धन योजना:-->
+        <item>____ प्रधानमंत्री जन धन योजना में रू. 30,000/- के जीवन बीमा के लिए शामिल नहीं हैं|</item>
+        <item>‘बेसिक बचत बैंक जमा खाते‘ में किस प्रकार की सेवाएं मुफ्त उपलब्‍ध हैं?</item><!-- बी एस बी डी खाता (BSBDA):-->
+        <item>बेसिक बचत बैंक जमा खाता खोलते समय न्‍यूनतम कितनी राशि की आवश्‍यकता है?</item>
+        <item>बैंक इनके विरूद्ध ऋण नहीं देता </item><!-- सुविचारित कर्ज:-->
+        <item>समय से ऋणों की चुकोती के क्‍या परिणाम है?</item>
+        <item>हमें ऋण किस उद्देश्य के लिए लेनी चाहिए?</item><!--ऋण साक्षरता:-->
+        <item>साहूकारों से लिये गये ऋण __</item>
+        <item>प्रति वर्ष प्रधानमंत्री जीवन ज्‍योति बीमा योजना के लिए प्रीमियम .......... है</item><!--प्रधानमंत्री जीवन ज्योति बीमा योजना:-->
+        <item>प्रधानमंत्री जीवन ज्‍योति बीमा योजना (PMJJBY) किन बैंक धारकों के लिए उपलब्ध है ?</item>
+        <item>प्रधानमंत्री सुरक्षा बीमा सुरक्षा योजना (PMSBY) के अंतर्गत कितना दुर्धटना बीमा दावा उपलब्‍ध है: </item><!--्रधानमंत्री जीवन सुरक्षा बीमा योजना:-->
+        <item>प्रधानमंत्री सुरक्षा बीमा योजना के अंतर्गत आंशिक अपंगता दावा उपलब्‍ध है: </item>
+        <item>अटल पेंशन योजना का लाभ किस आयु समूह के भारतीय नागरिक ले सकते हैं?</item><!--अटल पेंशन योजना1:-->
+        <item>अटल पेंशन योजना के खाताधारक की मृत्यु के बाद नॉमिनी को जीवन भर पेंशन का फायेदा मिलता है</item>
+        <item>अटल पैंशन योजना (APY) क्‍या है?</item><!--अटल पेंशन योजना2:-->
+        <item>अटल पेंशन योजना के अंतर्गत, 60 वर्ष की आयु के बाद नियुन्तम गारंटी शुदा / निश्चित मासिक पेंशन प्राप्‍त की जा सकती है:</item>
+        <item>हम एटीएम का उपयोग कर सकते हैं__</item><!--Rupay card-->
+        <item>क्या आप किसी के साथ एटीएम कार्ड का विवरण साझा करेंगे?</item>
+        <item>एईपीएस में किस बॉयोमीट्रिक का उपयोग नहीं किया जाता है?</item><!--AEPS-->
+        <item>हम एईपीएस का उपयोग कर सकते हैं</item>
+        <item>*99# क्या है?</item><!--USSD-->
+        <item>*99# से किस प्रकार के बैंकिंग लेनदेन किए जा सकते हैं?</item>
+        <item>BHIM का पूरा रूप है-</item><!--BHIM-->
+        <item>BHIM का उपयोग ___ के लिए किया जाता है</item>
+        <item>क्या आपको पीओएस डिवाइस पर पिन दर्ज करते समय कीपैड छुपाना चाहिए ?</item><!--Rupay POS-->
+        <item>क्या हमे पिन नंबर रुपे कार्ड पर लिखना चाहिए?</item>
+        <item>ई-वॉलेट सुविधा लेने के लिए किन चीजों का होना आवश्यक है?</item><!--e-wallet-->
+        <item>इनमे से कौन कौन ई-वॉलेट है?</item>
+        <item>इस विडियो के अनुसार, एक माइक्रो फाइनेंस संस्था के अधिकारी के द्वारा मेरे यहाँ आने का समय क्या होना चाहिए?</item><!--ऋण शिकायत निवारण -->
+        <item>किसी माइक्रो फाइनेंस संस्था के अधिकारी के द्वारा धमकाने या दुर्व्यवहार किये जाने पर क्या करें?</item>
+        <item>बीमा लोकपाल को किन अवस्था में संपर्क कर सकते हैं।</item><!--बीमा शिकायत निवारण -->
+        <item>मैं बीमा समझौते के पेपर के नियम और शर्त को पढ़ता/पढ़ती हूं।</item>
+        <item>एटीएम पासवर्ड को रखना चाहिए__</item><!--एटीएम डेबिट कार्ड - धोखाधड़ी और निवारण-->
+        <item>एटीएम पासवर्ड केवल किसको बताना चाहिए__</item>
+        <item>यदि आप धोखाधड़ी के बाद 3 कार्य दिवसों के भीतर बैंक को रिपोर्ट करते हैं तो आपकी देनदारी क्या होगी?</item><!--डिजिटल धोखाधड़ी होने पे क्या करें (Remedies):-->
+        <item>यदि आप धोखाधड़ी के सात (7) कार्य दिवसों के बाद बैंक को रिपोर्ट करते हैं तो आपकी देनदारी क्या होगी  ?</item>
+        <item>फ़िशिंग घोटालों के ईमेल कहाँ से आते हैं?</item><!--ईमेल (email) द्वारा धोखाधड़ी:-->
+        <item>फिशिंग जालसाज क्या जानकारी चुरा सकता है?</item>
+        <item>फ्रॉड कॉल्स कहाँ से आतें हैं?</item><!--फ़ोन द्वारा धोखाधड़ी: -->
+        <item>जालसाज फोन फ्रॉड्स से क्या जानकारी चुरा सकता है?</item>
+        <item>किस करेंसी नोट में सुरक्षा धागा हेाता है?</item><!--Security of 100-->
+        <item>100 रुपये के सुरक्षा धागे पे क्या लिखा होता है?</item>
+        <item>2000 रुपये नोट पर किस यान का चित्र बना हुआ है?</item><!--Security of 500 2000-->
+        <item>2000 रुपये के सुरक्षा धागे पे क्या लिखा होता है?</item>
+    </string-array>
+
+    <string-array name="after_optionA">
+        <item>हां</item><!--ित्तीय योजना और लक्ष्य:-->
+        <item>हां</item>
+        <item>हां</item><!--बजट और वित्तीय डायरी:-->
+        <item>आमदनी और खर्चे</item>
+        <item>रू. 1 लाख का दुर्धटना बीमा कवर</item><!--्रधानमंत्री जन धन योजना:-->
+        <item>केन्‍द्र/राज्‍य सरकार/सार्वजनिक क्षेत्र के उपक्रम/बैंकों के कर्मचारी</item>
+        <item>एनईएफटी/आरटीजीएस के माध्‍यम से प्राप्ति/जमा राशि</item><!-- बी एस बी डी खाता (BSBDA):-->
+        <item>रू. 100/-</item>
+        <item>सोने के आभूषण</item><!-- सुविचारित कर्ज:-->
+        <item>अच्छी लोन इतिहास / अच्छी लोन रिकॉर्ड</item>
+        <item>आभूषण</item><!--ऋण साक्षरता:-->
+        <item>ब्‍याज दर बहुत अधिक है</item>
+        <item>300 रुपये</item><!--प्रधानमंत्री जीवन ज्योति बीमा योजना:-->
+        <item>18 साल के आयु से नीचे</item>
+        <item>रू. 1 लाख</item><!--्रधानमंत्री जीवन सुरक्षा बीमा योजना:-->
+        <item>रू. 50,000/-</item>
+        <item>10 से 18 वर्ष</item><!--अटल पेंशन योजना1:-->
+        <item>हां</item>
+        <item>असंगठित क्षेत्र को सामाजिक सुरक्षा प्रदान करना</item><!--अटल पेंशन योजना2:-->
+        <item>रू.1,000/-, रू.2,000/-, रू.3,000/-, रू.4,000/-, रू. 5,000/- </item>
+        <item>नकद निकासी</item><!--Rupay card-->
+        <item>हां</item>
+        <item>ऊँगली</item><!--AEPS-->
+        <item>नकद निकासी</item>
+        <item>एसएमएस आधारित बैंकिंग लेनदेन</item><!--USSD-->
+        <item>बैलेंस पूछताछ</item>
+        <item>भारत इंडिया मुंबई</item><!--BHIM-->
+        <item>बैंकिंग लेनदेन</item>
+        <item>हां</item><!--Rupay POS-->
+        <item>हां</item>
+        <item>बैंक अकाउंट</item><!--e-wallet-->
+        <item>पेटीएम् (payTM)</item>
+        <item>सुबह 7 से शाम 6 बजे तक</item><!--ऋण शिकायत निवारण -->
+        <item>लोन कार्ड में लिखे शिकायत नंबर पर फ़ोन करें</item>
+        <item>अगर आपकी शिकायत बीमा कंपनी ठुकरा देती है</item><!--बीमा शिकायत निवारण -->
+        <item>हां</item>
+        <item>व्‍यक्तिगत डायरी</item><!--एटीएम डेबिट कार्ड - धोखाधड़ी और निवारण-->
+        <item>पति/पत्‍नी</item>
+        <item>आपकी कोई देनदारी नहीं</item><!--डिजिटल धोखाधड़ी होने पे क्या करें (Remedies):-->
+        <item>आपकी कोई देयता नहीं</item>
+        <item>बैंकों से</item><!--ईमेल (email) द्वारा धोखाधड़ी:-->
+        <item>आपकी पहचान</item>
+        <item>बैंकों से</item><!--फ़ोन द्वारा धोखाधड़ी: -->
+        <item>आपकी पहचान</item>
+        <item>रू. 50</item><!--Security of 100-->
+        <item>RBI और भारत</item>
+        <item>सूरज यान</item><!--Security of 100-->
+        <item>RBI भारत 2000</item>
+    </string-array>
+
+    <string-array name="after_optionB">
+        <item>नहीं</item><!--ित्तीय योजना और लक्ष्य:-->
+        <item>नहीं</item>
+        <item>नहीं</item><!--बजट और वित्तीय डायरी:-->
+        <item>जरुरी और गैर जरुरी खर्च</item>
+        <item>रू. 30000 का जीवन बीमा कवर</item><!--्रधानमंत्री जन धन योजना:-->
+        <item>आम आदमी बीमा योजना का लाभार्थी</item>
+        <item>एटीएम सह डेबिट कार्ड में कोई वार्षिक रखरखाव प्रभार नहीं</item><!-- बी एस बी डी खाता (BSBDA):-->
+        <item>कोई न्‍यूनतम राशि की आवश्‍यकता नहीं है</item>
+        <item>भारतीय जीवन बीमा पॉलिसी</item><!-- सुविचारित कर्ज:-->
+        <item>कोई चिंता नहीं</item>
+        <item>व्यवसाय / व्यापार</item><!--ऋण साक्षरता:-->
+        <item>कोई पारर्दशिता नहीं</item>
+        <item>230 रुपये</item><!--प्रधानमंत्री जीवन ज्योति बीमा योजना:-->
+        <item>18 से 50 तक के आयु वर्ग</item>
+        <item>रू. 2 लाख</item><!--्रधानमंत्री जीवन सुरक्षा बीमा योजना:-->
+        <item>रू.1 लाख</item>
+        <item>18 से 40 वर्ष</item><!--अटल पेंशन योजना1:-->
+        <item>नहीं</item>
+        <item>60 वर्ष की आयु होने के पश्‍चात निश्‍चित पैंशन का भुगतान</item><!--अटल पेंशन योजना2:-->
+        <item>रू.2,000/-, रू.3,000/-, रू.4,000/-, रू.5,000/-, रू.6,000/- </item>
+        <item>बैलेंस पूछताछ</item><!--Rupay card-->
+        <item>नहीं</item>
+        <item>आँख की पुतली</item><!--AEPS-->
+        <item>बैलेंस पूछताछ</item>
+        <item>मोबाइल टॉकटाइम की जांच के लिए</item><!--USSD-->
+        <item>फंड ट्रांसफर</item>
+        <item>भारत इंटरफेस फॉर मनी</item><!--BHIM-->
+        <item>खेलने</item>
+        <item>नहीं</item><!--Rupay POS-->
+        <item>नहीं</item>
+        <item>स्मार्ट फ़ोन</item><!--e-wallet-->
+        <item>मोबी क्विक (MobiKwik)</item>
+        <item>शाम 6 से सुबह 7 तक</item><!--ऋण शिकायत निवारण -->
+        <item>जो मीक्रोफिनांस अधिकारी बोलें वही करें</item>
+        <item>अगर बीमा कंपनी 30 दिन के अंदर जवाब नहीं देती है</item><!--बीमा शिकायत निवारण -->
+        <item>नहीं</item>
+        <item>कार्यालय डायरी</item><!--एटीएम डेबिट कार्ड - धोखाधड़ी और निवारण-->
+        <item>आज्ञाकारी पुत्र</item>
+        <item>आपकी बैंक नीति के अनुसार</item><!--डिजिटल धोखाधड़ी होने पे क्या करें (Remedies):-->
+        <item>आपकी बैंक नीति के अनुसार</item>
+        <item>क्रेडिट कार्ड कंपनियों से</item><!--ईमेल (email) द्वारा धोखाधड़ी:-->
+        <item>क्रेडिट कार्ड की जानकारी</item>
+        <item>क्रेडिट कार्ड कंपनियों से</item><!--फ़ोन द्वारा धोखाधड़ी: -->
+        <item>क्रेडिट कार्ड की जानकारी</item>
+        <item>रू.100</item><!--Security of 100-->
+        <item>RBI</item>
+        <item>मंगल यान</item><!--Security of 500 2000-->
+        <item>RBI</item>
+    </string-array>
+
+    <string-array name="after_optionC">
+        <item></item><!--ित्तीय योजना और लक्ष्य:-->
+        <item></item>
+        <item></item><!--बजट और वित्तीय डायरी:-->
+        <item>बचत</item>
+        <item>रू. 5,000 तक की ओवर ड्राफ्ट सुविधा</item><!--्रधानमंत्री जन धन योजना:-->
+        <item>आयकर देना वाला</item>
+        <item>माह में 4 आहरण (एटीएम आहरण सहित)</item><!-- बी एस बी डी खाता (BSBDA):-->
+        <item>रू. 1,000/-</item>
+        <item>लॉटरी टिकट</item><!-- सुविचारित कर्ज:-->
+        <item>भविष्य में ऋण पाने की ज्यादा अच्छी संभावना</item>
+        <item>मेले घुमने या घर की सामग्री खरीदने के लिए</item><!--ऋण साक्षरता:-->
+        <item>कोई उचित लेखांकन नहीं</item>
+        <item>330 रुपये</item><!--प्रधानमंत्री जीवन ज्योति बीमा योजना:-->
+        <item>कोई भी आयु समूह</item>
+        <item>रू.3 लाख</item><!--्रधानमंत्री जीवन सुरक्षा बीमा योजना:-->
+        <item>रू.2 लाख</item>
+        <item>40 से 60 वर्ष</item><!--अटल पेंशन योजना1:-->
+        <item></item>
+        <item>कामगारों को स्‍वैच्‍छा से सेवानिवृति के लिए बचत करने के लिए प्रेरित करना</item><!--अटल पेंशन योजना2:-->
+        <item>रू.500/-, रू.1,000/-, रू.2,000/- रू.3,000/-, रू.4,000/-</item>
+        <item>मिनी स्टेटमेंट</item><!--Rupay card-->
+        <item></item>
+        <item>दिल के धड़कन का</item><!--AEPS-->
+        <item>फंड ट्रांसफर</item>
+        <item></item><!--USSD-->
+        <item>दोनों</item>
+        <item></item><!--BHIM-->
+        <item></item>
+        <item></item><!--Rupay POS-->
+        <item></item>
+        <item>इन्टरनेट (2G/3G/4G)</item><!--e-wallet-->
+        <item>एयरटेल मनी (Airtel Money)</item>
+        <item>कोई भी समय</item><!--ऋण शिकायत निवारण -->
+        <item>आप भी धमकी या दुर्व्यवहार करें</item>
+        <item>अगर शिकायत का निवारण संतोषजनक नहीं है</item><!--बीमा शिकायत निवारण -->
+        <item></item>
+        <item>याद रखना चाहिए</item><!--एटीएम डेबिट कार्ड - धोखाधड़ी और निवारण-->
+        <item>आज्ञाकारी पुत्री</item>
+        <item></item><!--डिजिटल धोखाधड़ी होने पे क्या करें (Remedies):-->
+        <item></item>
+        <item>फिशिंग जालसाजों से</item><!--ईमेल (email) द्वारा धोखाधड़ी:-->
+        <item>दोनों</item>
+        <item>धोखेबाजों से</item><!--फ़ोन द्वारा धोखाधड़ी: -->
+        <item>दोनों</item>
+        <item>रू. 500/-</item><!--Security of 100-->
+        <item>भारत</item>
+        <item>चन्द्र यान</item><!--Security of 500 2000-->
+        <item>भारत</item>
+    </string-array>
+
+    <string-array name="after_optionD">
+        <item></item><!--ित्तीय योजना और लक्ष्य:-->
+        <item></item>
+        <item></item><!--बजट और वित्तीय डायरी:-->
+        <item>उपरोक्त सभी के बारे में</item>
+        <item>उपरोक्‍त सभी</item><!--्रधानमंत्री जन धन योजना:-->
+        <item>उपरोक्‍त सभी</item>
+        <item>उपरोक्‍त सभी</item><!-- बी एस बी डी खाता (BSBDA):-->
+        <item></item>
+        <item>एन एस सी</item><!-- सुविचारित कर्ज:-->
+        <item>उपर्योक्त सभी जवाब सही हैं</item>
+        <item></item><!--ऋण साक्षरता:-->
+        <item>उपरोक्‍त सभी</item>
+        <item></item><!--प्रधानमंत्री जीवन ज्योति बीमा योजना:-->
+        <item></item>
+        <item>उपरोक्‍त में से कोई नहीं</item><!--्रधानमंत्री जीवन सुरक्षा बीमा योजना:-->
+        <item>उपरोक्‍त में से कोई नहीं</item>
+        <item></item><!--अटल पेंशन योजना1:-->
+        <item></item>
+        <item>उपरोक्‍त सभी</item><!--अटल पेंशन योजना2:-->
+        <item>उपरोक्‍त में से कोई नहीं</item>
+        <item>उपर्युक्त सभी</item><!--Rupay card-->
+        <item></item>
+        <item></item><!--AEPS-->
+        <item>उपर्युक्त सभी</item>
+        <item></item><!--USSD-->
+        <item></item>
+        <item></item><!--BHIM-->
+        <item></item>
+        <item></item><!--Rupay POS-->
+        <item></item>
+        <item>उपर्युक्त सभी</item><!--e-wallet-->
+        <item>उपर्युक्त सभी</item>
+        <item></item><!--ऋण शिकायत निवारण -->
+        <item></item>
+        <item>उपरोक्त सभी</item><!--बीमा शिकायत निवारण -->
+        <item></item>
+        <item>उपरोक्‍त सभी</item><!--एटीएम डेबिट कार्ड - धोखाधड़ी और निवारण-->
+        <item>उपरोक्‍त में से कोई नहीं</item>
+        <item></item><!--डिजिटल धोखाधड़ी होने पे क्या करें (Remedies):-->
+        <item></item>
+        <item>फिशिंग जालसाजों से</item><!--ईमेल (email) द्वारा धोखाधड़ी:-->
+        <item>दोनों</item>
+        <item>धोखेबाजों से</item><!--फ़ोन द्वारा धोखाधड़ी: -->
+        <item>दोनों</item>
+        <item>उपरोक्‍त सभी</item><!--Security of 100-->
+        <item></item>
+        <item></item><!--Security of 500 2000-->
+        <item>2000</item>
+    </string-array>
+
+    <string-array name="after_answer">
+        <item>हां</item><!--ित्तीय योजना और लक्ष्य:-->
+        <item>हां</item>
+        <item>नहीं</item><!--बजट और वित्तीय डायरी:-->
+        <item>उपरोक्त सभी के बारे में</item>
+        <item>उपरोक्‍त सभी</item><!--्रधानमंत्री जन धन योजना:-->
+        <item>उपरोक्‍त सभी</item>
+        <item>उपरोक्‍त सभी</item><!-- बी एस बी डी खाता (BSBDA):-->
+        <item>कोई न्‍यूनतम राशि की आवश्‍यकता नहीं है</item>
+        <item>लॉटरी टिकट</item><!-- सुविचारित कर्ज:-->
+        <item>उपर्योक्त सभी जवाब सही हैं</item>
+        <item>व्यवसाय / व्यापार</item><!--ऋण साक्षरता:-->
+        <item>उपरोक्‍त सभी</item>
+        <item>330 रुपये</item><!--प्रधानमंत्री जीवन ज्योति बीमा योजना:-->
+        <item>18 से 50 तक के आयु वर्ग</item>
+        <item>रू.2 लाख</item><!--्रधानमंत्री जीवन सुरक्षा बीमा योजना:-->
+        <item>रू.1 लाख</item>
+        <item>18 से 40 वर्ष</item><!--अटल पेंशन योजना1:-->
+        <item>हां</item>
+        <item>उपरोक्‍त सभी</item><!--अटल पेंशन योजना2:-->
+        <item>रू.1,000/-, रू.2,000/-, रू.3,000/-, रू.4,000/-, रू. 5,000/- </item>
+        <item>उपर्युक्त सभी</item><!--Rupay card-->
+        <item>नहीं</item>
+        <item>दिल के धड़कन का</item><!--AEPS-->
+        <item>उपर्युक्त सभी</item>
+        <item>एसएमएस आधारित बैंकिंग लेनदेन</item><!--USSD-->
+        <item>दोनों</item>
+        <item>भारत इंटरफेस फॉर मनी</item><!--BHIM-->
+        <item>बैंकिंग लेनदेन</item>
+        <item>हां</item><!--Rupay POS-->
+        <item>नहीं</item>
+        <item>उपर्युक्त सभी</item><!--e-wallet-->
+        <item>उपर्युक्त सभी</item>
+        <item>सुबह 7 से शाम 6 बजे तक</item><!--ऋण शिकायत निवारण -->
+        <item>लोन कार्ड में लिखे शिकायत नंबर पर फ़ोन करें</item>
+        <item>उपरोक्त सभी</item><!--बीमा शिकायत निवारण -->
+        <item>हां</item>
+        <item>याद रखना चाहिए</item><!--एटीएम डेबिट कार्ड - धोखाधड़ी और निवारण-->
+        <item>उपरोक्‍त में से कोई नहीं</item>
+        <item>आपकी कोई देनदारी नहीं</item><!--डिजिटल धोखाधड़ी होने पे क्या करें (Remedies):-->
+        <item>आपकी बैंक नीति के अनुसार</item>
+        <item>फिशिंग जालसाजों से</item><!--ईमेल (email) द्वारा धोखाधड़ी:-->
+        <item>दोनों</item>
+        <item>धोखेबाजों से</item><!--फ़ोन द्वारा धोखाधड़ी: -->
+        <item>दोनों</item>
+        <item>उपरोक्‍त सभी</item><!--Security of 100-->
+        <item>RBI और भारत</item>
+        <item>मंगल यान</item><!--Security of 500 2000-->
+        <item>RBI भारत 2000</item>
+    </string-array>
+
+    <string-array name="mfi_name">
+        <item>एमएफआई चुनें</item>
+        <item>मदुरा(Madura)</item>
+        <item>पहल(Pahal)</item>
+        <item>सम्बन्ध(Sambandh)</item>
+        <item>स्माइल(SMILE)</item>
+        <item>स्वस्ति(Svasti)</item>
+        <item>अन्य</item>
+    </string-array>
+
+    <string-array name="designation">
+        <item>पद चुनें</item>
+        <item>ऋण अधिकारी</item>
+        <item>सहायक शाखा प्रबंधक</item>
+        <item>शाखा प्रबंधक</item>
+        <item>अन्य</item>
+    </string-array>
+
+    <string-array name="whose_customer">
+        <item>चुनें</item>
+        <item>बैंक</item>
+        <item>एमएफआई</item>
+        <item>दोनों</item>
+        <item>कोई नहीं</item>
+    </string-array>
+
+    <string-array name="how_know_the_app">
+        <item>चुनें</item>
+        <item>दोस्त</item>
+        <item>परिवार</item>
+        <item>एमएफआई स्टाफ</item>
+        <item>अन्य</item>
+    </string-array>
+
+    <string-array name="age_list">
+        <item>आयु चुनें</item>
+        <item>10-20</item>
+        <item>21-25</item>
+        <item>26-30</item>
+        <item>31-35</item>
+        <item>36-40</item>
+        <item>41-50</item>
+        <item>51-60</item>
+        <item>61-70</item>
+        <item>71-80</item>
+    </string-array>
+
+    <string-array name="education_list">
+        <item>शिक्षा चुनें</item>
+        <item>निरक्षर</item>
+        <item>प्राथमिक (8वीं कक्षा तक)</item>
+        <item>माध्यमिक (कक्षा 9वीं - 10 वीं)</item>
+        <item>वरिष्ठ माध्यमिक (कक्षा 11वीं - 12वीं)</item>
+        <item>डिप्लोमा</item>
+        <item>डिग्री और ऊपर</item>
+    </string-array>
+
+    <string-array name="occupation_list">
+        <item>व्यवसाय चुनें</item>
+        <item>स्वरोजगार</item>
+        <item>मजदूरी</item>
+        <item>वेतनभोगी</item>
+        <item>छात्र</item>
+        <item>गृहिणी</item>
+        <item>अन्य</item>
+    </string-array>
+
+    <string-array name="states_list">
+        <item>राज्य चुनें</item>
+        <item>आंध्र प्रदेश</item>
+        <item>अरुणाचल प्रदेश</item>
+        <item>असम</item>
+        <item>बिहार</item>
+        <item>चंडीगढ़</item>
+        <item>छत्तीसगढ़</item>
+        <item>गोवा</item>
+        <item>गुजरात</item>
+        <item>हरयाणा</item>
+        <item>हिमाचल प्रदेश</item>
+        <item>जम्मू-कश्मीर</item>
+        <item>झारखंड</item>
+        <item>कर्नाटक</item>
+        <item>केरल</item>
+        <item>मध्य प्रदेश</item>
+        <item>महाराष्ट्र</item>
+        <item>मणिपुर</item>
+        <item>मेघालय</item>
+        <item>मिजोरम</item>
+        <item>नगालैंड</item>
+        <item>नई दिल्ली</item>
+        <item>ओडिशा</item>
+        <item>पंजाब</item>
+        <item>राजस्थान</item>
+        <item>सिक्किम</item>
+        <item>तमिलनाडु</item>
+        <item>तेलंगाना</item>
+        <item>त्रिपुरा</item>
+        <item>उत्तर प्रदेश</item>
+        <item>उत्तराखंड</item>
+        <item>पश्चिम बंगाल</item>
+    </string-array>
+
+    <string-array name="district_list">
+        <item>जिला चुनें</item>
+    </string-array>
+
+    <string-array name="bihar">
+        <item>जिला चुनें</item>
+        <item>अररिया</item>
+        <item>अरवल</item>
+        <item>औरंगाबाद</item>
+        <item>कैमुर</item>
+        <item>कटिहार</item>
+        <item>किशनगंज</item>
+        <item>खगड़िया</item>
+        <item>गया</item>
+        <item>गोपालगंज</item>
+        <item>जमुई</item>
+        <item>जहानाबाद</item>
+        <item>दरभंगा</item>
+        <item>नवादा</item>
+        <item>नालंदा</item>
+        <item>पटना</item>
+        <item>पश्चिम चंपारण</item>
+        <item>पूर्णियां</item>
+        <item>पूर्वी चंपारण</item>
+        <item>बक्सर</item>
+        <item>बाँका</item>
+        <item>बेगूसराय</item>
+        <item>भागलपुर</item>
+        <item>भोजपुर</item>
+        <item>मधेपुरा</item>
+        <item>मधुबनी</item>
+        <item>मुंगेर</item>
+        <item>मुजफ्फरपुर</item>
+        <item>रोहतास</item>
+        <item>लखीसराय</item>
+        <item>वैशाली</item>
+        <item>सहरसा</item>
+        <item>समस्तीपुर</item>
+        <item>सारन</item>
+        <item>सीतामढी</item>
+        <item>सीवान</item>
+        <item>सुपौल</item>
+        <item>शिवहर</item>
+        <item>शेखपुरा</item>
+    </string-array>
+
+</resources>

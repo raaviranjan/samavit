@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+
+
+        <!--family budgeting and planning-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/module_border"
+            android:clickable="true"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/other_rlModule1">
+
+            <ImageView
+                android:id="@+id/other_ivModule1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/module_icon1" />
+
+            <TextView
+                android:id="@+id/other_tvModule1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/other_ivModule1"
+                android:layout_toRightOf="@+id/other_ivModule1"
+                android:text="@string/other_module1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:textSize="17sp" />
+
+            <!--<TextView
+                android:id="@+id/tvViewsModule1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/other_tvModule1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/other_tvModule1"
+                android:layout_marginBottom="2dp"
+                android:text="@string/initial_viewed3"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/border_percentage"
+                android:text="0%"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/tvPer1"/> -->
+        </RelativeLayout>
+
+
+        <!--Financial Products-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/module_border"
+            android:clickable="true"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/other_rlModule2">
+
+            <ImageView
+                android:id="@+id/other_ivModule2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/family3" />
+
+            <TextView
+                android:id="@+id/other_tvModule2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/other_ivModule2"
+                android:layout_toRightOf="@+id/other_ivModule2"
+                android:text="@string/other_module2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:textSize="17sp" />
+
+            <!--<TextView
+                android:id="@+id/tvViewsModule1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/other_tvModule1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/other_tvModule1"
+                android:layout_marginBottom="2dp"
+                android:text="@string/initial_viewed3"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/border_percentage"
+                android:text="0%"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/tvPer1"/> -->
+        </RelativeLayout>
+
+        <!--KYC-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/module_border"
+            android:clickable="true"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/other_rlModule3">
+
+            <ImageView
+                android:id="@+id/other_ivModule3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/other_kyc" />
+
+            <TextView
+                android:id="@+id/other_tvModule3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/other_ivModule3"
+                android:layout_toRightOf="@+id/other_ivModule3"
+                android:text="@string/other_module3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:textSize="17sp" />
+
+            <!--<TextView
+                android:id="@+id/tvViewsModule1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/other_tvModule1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/other_tvModule1"
+                android:layout_marginBottom="2dp"
+                android:text="@string/initial_viewed3"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/border_percentage"
+                android:text="0%"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/tvPer1"/> -->
+        </RelativeLayout>
+
+        <!--savings-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/module_border"
+            android:clickable="true"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/other_rlModule4">
+
+            <ImageView
+                android:id="@+id/other_ivModule4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/module_icon2" />
+
+            <TextView
+                android:id="@+id/other_tvModule4"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/other_ivModule4"
+                android:layout_toRightOf="@+id/other_ivModule4"
+                android:text="@string/other_module4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:textSize="17sp" />
+
+        <!--   <TextView
+               android:id="@+id/tvViewsModule2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignLeft="@+id/other_tvModule2"
+               android:layout_alignParentBottom="true"
+               android:layout_alignStart="@+id/other_tvModule2"
+               android:layout_marginBottom="2dp"
+               android:text="@string/initial_viewed2"
+               android:textSize="15sp" />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentEnd="true"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:background="@drawable/border_percentage"
+               android:text="0%"
+               android:textSize="20sp"
+               android:gravity="center"
+               android:id="@+id/tvPer2"/>-->
+       </RelativeLayout>
+
+       <!--loans-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/module_border"
+            android:clickable="true"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/other_rlModule5">
+
+            <ImageView
+                android:id="@+id/other_ivModule5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/module_icon3" />
+
+            <TextView
+                android:id="@+id/other_tvModule5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/other_ivModule5"
+                android:layout_toRightOf="@+id/other_ivModule5"
+                android:text="@string/other_module5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:textSize="17sp" />
+
+        <!-- <TextView
+             android:id="@+id/tvViewsModule3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/other_tvModule3"
+             android:layout_alignParentBottom="true"
+             android:layout_alignStart="@+id/other_tvModule3"
+             android:layout_marginBottom="2dp"
+             android:text="@string/initial_viewed2"
+             android:textSize="15sp" />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentEnd="true"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:background="@drawable/border_percentage"
+             android:text="0%"
+             android:textSize="20sp"
+             android:gravity="center"
+             android:id="@+id/tvPer3"/>-->
+     </RelativeLayout>
+
+     <!--insurance and pension-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/module_border"
+            android:clickable="true"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/other_rlModule6">
+
+            <ImageView
+                android:id="@+id/other_ivModule6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/module_icon4" />
+
+            <TextView
+                android:id="@+id/other_tvModule6"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/other_ivModule6"
+                android:layout_toRightOf="@+id/other_ivModule6"
+                android:text="@string/other_module6"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:textSize="17sp" />
+
+        <!--    <TextView
+                android:id="@+id/tvViewsModule4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/other_tvModule4"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/other_tvModule4"
+                android:layout_marginBottom="2dp"
+                android:text="@string/initial_viewed2"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/border_percentage"
+                android:text="0%"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/tvPer4"/>-->
+        </RelativeLayout>
+
+      <!--Digital transactions-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/module_border"
+            android:clickable="true"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/other_rlModule7">
+
+            <ImageView
+                android:id="@+id/other_ivModule7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/module_icon6" />
+
+            <TextView
+                android:id="@+id/other_tvModule7"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/other_ivModule7"
+                android:layout_toRightOf="@+id/other_ivModule7"
+                android:text="@string/other_module7"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:textSize="17sp" />
+
+        <!-- <TextView
+             android:id="@+id/tvViewsModule6"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/other_tvModule6"
+             android:layout_alignParentBottom="true"
+             android:layout_alignStart="@+id/other_tvModule6"
+             android:layout_marginBottom="2dp"
+             android:text="@string/initial_viewed6"
+             android:textSize="15sp" />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentEnd="true"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:background="@drawable/border_percentage"
+             android:text="0%"
+             android:textSize="20sp"
+             android:gravity="center"
+             android:id="@+id/tvPer6"/>-->
+     </RelativeLayout>
+
+     <!--Others-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/module_border"
+            android:clickable="true"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/other_rlModule8">
+
+            <ImageView
+                android:id="@+id/other_ivModule8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/module_icon9" />
+
+            <TextView
+                android:id="@+id/other_tvModule8"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/other_ivModule8"
+                android:layout_toRightOf="@+id/other_ivModule8"
+                android:text="@string/other_module8"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:textSize="17sp" />
+
+        <!--   <TextView
+               android:id="@+id/tvViewsModule7"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignLeft="@+id/other_tvModule7"
+               android:layout_alignParentBottom="true"
+               android:layout_alignStart="@+id/other_tvModule7"
+               android:layout_marginBottom="2dp"
+               android:text="@string/initial_viewed2"
+               android:textSize="15sp" />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentEnd="true"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:background="@drawable/border_percentage"
+               android:text="0%"
+               android:textSize="20sp"
+               android:gravity="center"
+               android:id="@+id/tvPer7"/>-->
+       </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

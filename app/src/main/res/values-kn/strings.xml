@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="profile">ಬಳಕೆದಾರ ಪ್ರೊಫೈಲ್</string>
+    <string name="gender">ಲಿಂಗ</string>
+    <string name="male">ಪುರುಷ</string>
+    <string name="female">ಸ್ತ್ರೀ</string>
+    <string name="other">ಇತರೆ</string>
+    <string name="age">ವಯಸ್ಸು</string>
+    <string name="education">ಶಿಕ್ಷಣ</string>
+    <string name="occupation">ಉದ್ಯೋಗ</string>
+    <string name="locality">ಸ್ಥಳ</string>
+    <string name="rural">ಗ್ರಾಮೀಣ</string>
+    <string name="semi_urban">ಅರೆ-ನಗರ</string>
+    <string name="urban">ನಗರ</string>
+    <string name="state">ರಾಜ್ಯ</string>
+    <string name="district">ಜಿಲ್ಲೆ</string>
+    <string name="doneButton">ಮುಗಿದಿದೆ</string>
+
+    <string name="module1">ಹಣಕಾಸು ಯೋಜನೆ ಮತ್ತು ಬಜೆಟಿಂಗ್</string>
+    <string name="module2">ಉಳಿತಾಯ</string>
+    <string name="module3">ಸಾಲ</string>
+    <string name="module4">ವಿಮೆ</string>
+    <string name="module5">ಪಿಂಚಣಿ</string>
+    <string name="module6">ಡಿಜಿಟಲ್ ವಹಿವಾಟು</string>
+    <string name="module7">ಗ್ರಾಹಕರನ್ನು ಎಚ್ಚರಗೊಳಿಸಲು ವೇಕ್</string>
+    <string name="module8">ಕರೆನ್ಸಿ ಲಿಟರಸಿ</string>
+    <string name="module9">ಇತರರು</string>
+
+    <string name="about_us">ನಮ್ಮ ಬಗ್ಗೆ</string>
+    <string name="rate_us">ನಮ್ಮನ್ನು ರೇಟ್ ಮಾಡಿ\u0020\u0020</string>
+    <string name="version">ಆವೃತ್ತಿ: 1.1</string>
+    <string name="wait">ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ...</string>
+    <string name="fill_all">ಸಂಪೂರ್ಣ ವಿವರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ</string>
+    <string name="viewed">ವೀಕ್ಷಿಸಲಾಗಿದೆ:</string>
+    <string name="total">ಒಟ್ಟು:</string>
+    <string name="initial_viewed1">ವೀಕ್ಷಿಸಲಾಗಿದೆ:\u0020\u00200\u0020\u0020\u0020\u0020ಒಟ್ಟು:\u0020\u00201</string>
+    <string name="initial_viewed2">ವೀಕ್ಷಿಸಲಾಗಿದೆ:\u0020\u00200\u0020\u0020\u0020\u0020ಒಟ್ಟು:\u0020\u00202</string>
+    <string name="initial_viewed3">ವೀಕ್ಷಿಸಲಾಗಿದೆ:\u0020\u00200\u0020\u0020\u0020\u0020ಒಟ್ಟು:\u0020\u00203</string>
+    <string name="initial_viewed6">ವೀಕ್ಷಿಸಲಾಗಿದೆ:\u0020\u00200\u0020\u0020\u0020\u0020ಒಟ್ಟು:\u0020\u00206</string>
+
+    <string name="mfi">MFI</string>
+    <string name="mfisubmit">ಸಲ್ಲಿಸಲು</string>
+    <string name="mfi_field_staff">MFI ಕ್ಷೇತ್ರ ಸಿಬ್ಬಂದಿ</string>
+    <string name="name_of_branch">ಶಾಖೆ ಹೆಸರು</string>
+    <string name="branch_id">ಶಾಖೆ ID</string>
+    <string name="name">ಹೆಸರು</string>
+    <string name="designation">ಪೋಸ್ಟ್</string>
+    <string name="id_staff">ಸಿಬ್ಬಂದಿ ID</string>
+    <string name="location">ಸ್ಥಳ</string>
+    <string name="geo_location">ಜಿಯೋ ಸ್ಥಳ</string>
+
+    <string name="identify_yourself">ನಿಮ್ಮನ್ನು ಗುರುತಿಸಿ</string>
+    <string name="mfi_staff">MFI ಸಿಬ್ಬಂದಿ</string>
+    <string name="mfi_client">MFI ಕ್ಲೈಂಟ್</string>
+    <string name="shg_member">SHG ಸದಸ್ಯರು</string>
+    <string name="others">ಇತರರು</string>
+    <string name="kids">ಮಕ್ಕಳು</string>
+    <string name="group_registration">ಗುಂಪು ನೋಂದಣಿ</string>
+    <string name="t_group_name">ಗುಂಪು ಹೆಸರು</string>
+    <string name="centre_group_id">ಕೇಂದ್ರ / ಗುಂಪು ID</string>
+    <string name="total_member">ಒಟ್ಟು ಸದಸ್ಯರು</string>
+    <string name="enter_as_user">ಬಳಕೆದಾರರಂತೆ ನಮೂದಿಸಿ</string>
+    <string name="manage_grps">ಗುಂಪುಗಳನ್ನು ನಿರ್ವಹಿಸಿ</string>
+    <string name="or">ಅಥವಾ</string>
+    <string name="existing_groups">ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಗುಂಪುಗಳು</string>
+    <string name="new_group">ಹೊಸ ಗುಂಪು</string>
+    <string name="take_attendance">ಹಾಜರಾತಿ ತೆಗೆದುಕೊಳ್ಳಿ</string>
+    <string name="date">ದಿನಾಂಕ</string>
+    <string name="no_of_members_present">ಸದಸ್ಯರ ಸಂಖ್ಯೆ ಇಲ್ಲ</string>
+    <string name="time">ಸಮಯ</string>
+    <string name="group_name_module">ಗುಂಪು ಹೆಸರು :\n</string>
+    <string name="group_id_module">ಗುಂಪು ID :\n</string>
+    <string name="select_grp">ಗುಂಪನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="toast">ದಯವಿಟ್ಟು ಗುಂಪು ಹೆಸರು ಮತ್ತು ID ಅನ್ನು ಭರ್ತಿ ಮಾಡಿ</string>
+    <string name="specify_MFI">MFI ಅನ್ನು ಸೂಚಿಸಿ</string>
+    <string name="specify_designation">ಪೋಸ್ಟ್ನ ಹೆಸರನ್ನು ಟೈಪ್ ಮಾಡಿ</string>
+    <string name="whose_customer_are_you">ನೀವು ಯಾರ ಗ್ರಾಹಕರು?</string>
+    <string name="how_did_you_know_about_the_app">ಅಪ್ಲಿಕೇಶನ್ ಬಗ್ಗೆ ನಿಮಗೆ ಹೇಗೆ ತಿಳಿದಿದೆ?</string>
+    <string name="video_source">ಮೂಲ:\u0020</string>
+    <string name="video_duration">ಅವಧಿ:\u0020</string>
+    <string name="before_watching_vdo">ದಯವಿಟ್ಟು ಈ ವೀಡಿಯೊವನ್ನು ವೀಕ್ಷಿಸುವ ಮೊದಲು ಕೆಲವು ಸರಳ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ</string>
+    <string name="proceed">ಮುಂದುವರೆಯಿರಿ</string>
+    <string name="cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="next">ಮುಂದೆ</string>
+    <string name="correct_answer">!!! ಸರಿಯಾದ ಉತ್ತರ !!!</string>
+    <string name="ans_should_b">!!! ಉತ್ತರವು ಇರಬೇಕು \'</string>
+    <string name="please_select_an_option">ದಯವಿಟ್ಟು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ</string>
+    <string name="what_u_learnt_from_vdo">ಈ ವೀಡಿಯೊದಿಂದ ನೀವು ಕಲಿತದ್ದನ್ನು ನೋಡೋಣ</string>
+    <string name="result">ಫಲಿತಾಂಶ</string>
+
+    <string name="family1">ಆರ್ಥಿಕ ಯೋಜನೆ</string>
+    <string name="family2">ಬಜೆಟಿಂಗ್</string>
+    <string name="family3">ನೀಡ್ಸ್ ಮತ್ತು ವಾಂಟ್ಸ್</string>
+    <string name="saving1">ಪ್ರಧಾನಿ ಜನ ಧನ್ ಯೋಜಾನಾ (PMJDY)</string>
+    <string name="saving2">ಬೇಸಿಕ್ ಸೇವಿಂಗ್ಸ್ ಬ್ಯಾಂಕ್ ಠೇವಣಿ ಖಾತೆ (BSBDA)</string>
+    <string name="saving3">ಉಳಿತಾಯ</string>
+    <string name="loan1">ಎರವಲು</string>
+    <string name="loan2">ಕ್ರೆಡಿಟ್ ಲಿಟರಸಿ</string>
+    <string name="loan3">ದೂರು ಪರಿಹಾರ ನಿವಾರಣೆ - ಸಾಲ ಕ್ಲೈಂಟ್ಗಾಗಿ</string>
+    <string name="insurance1">ಪ್ರಧಾನಿ ಜೀವನ್ ಜ್ಯೋತಿ ವಿಮಾ ಯೋಜನೆ</string>
+    <string name="insurance2">ಪ್ರಧಾನಿ ಜೀವನ್ ಜನ ಬಿಮಾ ಯೋಜನೆ</string>
+    <string name="insurance3">ಕುಂದುಕೊರತೆ ನಿವಾರಣೆ - ವಿಮಾ ಗ್ರಾಹಕರಿಗೆ</string>
+    <string name="pension1">ಅಟಲ್ ಪಿಂಚಣಿ ಯೋಜನೆ</string>
+    <string name="pension2">ರಾಷ್ಟ್ರೀಯ ಪಿಂಚಣಿ ವ್ಯವಸ್ಥೆ</string>
+    <string name="digital1">ಎಟಿಎಂ (ATM)</string>
+    <string name="digital2">ಮೈಕ್ರೋ ಎಟಿಎಂ</string>
+    <string name="digital3">ಸಕ್ರಿಯಗೊಳಿಸಿದ ಪಾವತಿ ವಿಧಾನವನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ (AEPS)</string>
+    <string name="digital4">ಯುಎಸ್ಎಸ್ಡಿ (*99#)</string>
+    <string name="digital5">ಭೀಮಾ (BHIM) ಅಪ್ಲಿಕೇಶನ್</string>
+    <string name="digital6">ಪಿಓಎಸ್ (POS)</string>
+    <string name="digital9">ಭೀಮಾ ಮತ್ತು ಯುಎಸ್ಎಸ್ಡಿ </string>
+    <string name="digital7">ಫೋನ್ ಕಾಲ್ ಮೂಲಕ ಹಣಕಾಸು ವಂಚನೆ</string>
+    <string name="digital8">ಎಟಿಎಂ ಡೆಬಿಟ್ ಕಾರ್ಡ್ - ವಂಚನೆ ಮತ್ತು ತಡೆಗಟ್ಟುವಿಕೆ</string>
+    <string name="consumer1">ಎಟಿಎಂ ಡೆಬಿಟ್ ಕಾರ್ಡ್ - ವಂಚನೆ ಮತ್ತು ತಡೆಗಟ್ಟುವಿಕೆ</string>
+    <string name="consumer2">ದೂರು ಪರಿಹಾರ - ಒಂದು ಸಾಲ ಗ್ರಾಹಕನಿಗೆ</string>
+    <string name="consumer3">ದೂರು ಪರಿಹಾರ - ಇನ್ಶುರೆನ್ಸ್ ಕ್ಲೈಂಟ್ಗೆ</string>
+    <string name="consumer4">ದೂರು ಪರಿಹಾರ - ಪೆನ್ಷನ್ ಕ್ಲೈಂಟ್ಗಳಿಗೆ</string>
+    <string name="consumer5">ಇಮೇಲ್ ಮೂಲಕ ಹಣಕಾಸು ವಂಚನೆ</string>
+    <string name="consumer6">ಫೋನ್ ಕರೆ ಮೂಲಕ ಹಣಕಾಸು ವಂಚನೆ</string>
+    <string name="currency1">ಭದ್ರತಾ ವೈಶಿಷ್ಟ್ಯಗಳು Rs.100</string>
+    <string name="currency2">ಭದ್ರತಾ ವೈಶಿಷ್ಟ್ಯಗಳು Rs.500 ಮತ್ತು Rs.2000</string>
+    <string name="other1">ಬ್ಯಾಂಕಿಂಗ್ ಪ್ರಯೋಜನಗಳು</string>
+    <string name="other2">ಸಾಲಗಳು</string>
+    <string name="other3">ಕೆವೈಸಿ</string>
+    <string name="other4">ಬಿಹೆಮ್ ಮತ್ತು ಯುಎಸ್ಎಸ್ಡಿ</string>
+    <string name="other5">ಯುಪಿಐ</string>
+    <string name="other6">ಹಣ ವರ್ಗಾವಣೆ - NEFT</string>
+    <string name="other7">ಡಿಜಿಟಲ್ ಪಾವತಿ</string>
+    <string name="other8">ಡಿಜಿಟಲ್ ಹಣಕಾಸು ಸೇವೆಗಳು</string>
+    <string name="other9">ವ್ಯಾಪಾರ ಪ್ರತಿನಿಧಿ</string>
+    <string name="other10">ಸಂಯುಕ್ತ ಪವರ್</string>
+    <string name="other11">ನಿವೃತ್ತಿ ಯೋಜನೆ</string>
+    <string name="other12">ಹಣದುಬ್ಬರ ಮಾನ್ಸ್ಟರ್</string>
+    <string name="con1">ವಂಚನೆಯ ಮೇಲೆ ಸೀಮಿತ ಹೊಣೆಗಾರಿಕೆ</string>
+    <string name="con2">ಇಮೇಲ್ ಮೂಲಕ ಹಣಕಾಸು ವಂಚನೆ</string>
+    <string name="savings1">ಉಳಿತಾಯ</string>
+    <string name="savings2">ಬ್ಯಾಂಕಿಂಗ್ ಪ್ರಯೋಜನಗಳು</string>
+    <string name="upi">ಯುಪಿಐ</string>
+    <string name="email">ಇಮೇಲ್ ಮೂಲಕ ಹಣಕಾಸು ವಂಚನೆ</string>
+    <string name="kyc">KYC</string>
+    <string name="tpc">ಸಂಯುಕ್ತ ಪವರ್</string>
+    <string name="rp">ನಿವೃತ್ತಿ ಯೋಜನೆ</string>
+    <string name="im">ಹಣದುಬ್ಬರ ಮಾನ್ಸ್ಟರ್</string>
+
+    <string name="compulsory">ಕಡ್ಡಾಯ</string>
+    <string name="supplementary_vidoes">ಪೂರಕ ವಿಡೋಸ್</string>
+    <string name="desirable">ಅಪೇಕ್ಷಣೀಯ</string>
+    <string name="loan">ಜವಾಬ್ದಾರಿಯುತ ಸಾಲ ಪಡೆಯುವುದು</string>
+    <string name="insurance">ವಿಮೆ</string>
+    <string name="digital_transaction">ಡಿಜಿಟಲ್ ವಹಿವಾಟು</string>
+    <string name="pension">ಪಿಂಚಣಿ</string>
+    <string name="financial_planning_and_budgeting">ಹಣಕಾಸು ಯೋಜನೆ ಮತ್ತು ಬಜೆಟಿಂಗ್</string>
+    <string name="consumer_beware">ಗ್ರಾಹಕ ಬಿವೇರ್</string>
+    <string name="currency_literacy">ಕರೆನ್ಸಿ ಲಿಟರಸಿ</string>
+    <string name="choices">ಆಯ್ಕೆಗಳು</string>
+    <string name="mfi_client_title">MFI Client</string>
+    <string name="client_id">Client ID</string>
+
+    <string-array name="mfi_name">
+        <item>MFI ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</item>
+        <item>ಮಧುರಾ(Madura)</item>
+        <item>ಉಪಕ್ರಮ(Pahal)</item>
+        <item>ಸಂಬಂಧ(Sambandh)</item>
+        <item>ಸ್ಮೈಲ್(SMILE)</item>
+        <item>ಸವಸ್ತಿ(Svasti)</item>
+        <item>ಇತರೆ</item>
+    </string-array>
+
+    <string-array name="designation">
+        <item>ಹೆಸರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</item>
+        <item>ಸಾಲ ಅಧಿಕಾರಿ</item>
+        <item>ಸಹಾಯಕ ಶಾಖೆ ವ್ಯವಸ್ಥಾಪಕ</item>
+        <item>ಶಾಖೆ ವ್ಯವಸ್ಥಾಪಕ</item>
+        <item>ಇತರೆ</item>
+    </string-array>
+
+    <string-array name="whose_customer">
+        <item>ಆಯ್ಕೆ</item>
+        <item>ಬ್ಯಾಂಕ್</item>
+        <item>MFI</item>
+        <item>ಎರಡೂ</item>
+        <item>ಯಾರೂ ಇಲ್ಲ</item>
+    </string-array>
+
+    <string-array name="how_know_the_app">
+        <item>ಆಯ್ಕೆ</item>
+        <item>ಸ್ನೇಹಿತ</item>
+        <item>ಕುಟುಂಬ</item>
+        <item>MFI ಸಿಬ್ಬಂದಿ</item>
+        <item>ಇತರೆ</item>
+    </string-array>
+
+    <string-array name="education_list">
+        <item>ಶಿಕ್ಷಣ ಆಯ್ಕೆಮಾಡಿ</item>
+        <item>ಅನಕ್ಷರಸ್ಥ</item>
+        <item>ಪ್ರಾಥಮಿಕ (8 ನೇ ವರೆಗೆ)</item>
+        <item>ಮಾಧ್ಯಮಿಕ (9 ನೇ -10)</item>
+        <item>ಸೆಕೆಂಡರಿ ಹಿರಿಯ (11 ನೇ - 12)</item>
+        <item>ಡಿಪ್ಲೊಮಾ</item>
+        <item>ಪದವಿ ಮತ್ತು ಮೇಲಿನ</item>
+    </string-array>
+
+    <string-array name="occupation_list">
+        <item>ಉದ್ಯೋಗ ಆಯ್ಕೆಮಾಡಿ</item>
+        <item>ಸ್ವಯಂ ಉದ್ಯೋಗಿ</item>
+        <item>ಲೇಬರ್</item>
+        <item>ಸಂಬಳ</item>
+        <item>ವಿದ್ಯಾರ್ಥಿ</item>
+        <item>ಗೃಹಿಣಿ</item>
+        <item>ಇತರೆ</item>
+    </string-array>
+</resources>

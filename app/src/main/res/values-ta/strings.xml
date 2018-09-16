@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--This is TAMIL translation.
+        To know what it is written in the string value, find the string WITH SAME NAME in "string.xml" file of english version.
+        With that string value, you can change the translation if there is any error in translation.
+        If there is any error in the TITLE translation of videos, find the actual TITLE from the EXCEL sheet.-->
+
+    <string name="profile">பயனர் விவரம்</string>
+    <string name="gender">பாலினம்</string>
+    <string name="male">ஆண்</string>
+    <string name="female">பெண்</string>
+    <string name="other">மற்ற</string>
+    <string name="age">வயது</string>
+    <string name="education">கல்வி</string>
+    <string name="occupation">தொழில்</string>
+    <string name="locality">வட்டாரத்தின்</string>
+    <string name="rural">ஊரக</string>
+    <string name="semi_urban">அரை நகர்ப்புற</string>
+    <string name="urban">நகர்ப்புற</string>
+    <string name="district">மாவட்டம்</string>
+    <string name="doneButton">முடிந்தது</string>
+
+    <string name="module1">நிதி திட்டமிடல் மற்றும் பட்ஜெட்</string>
+    <string name="module2">சேமிப்பு</string>
+    <string name="module3">உப்பு</string>
+    <string name="module4">காப்புறுதி</string>
+    <string name="module5">ஓய்வூதியங்கள்</string>
+    <string name="module6">டிஜிட்டல் பரிவர்த்தனை</string>
+    <string name="module7">ஜாகோ கிராஹாம் எழுந்திரு</string>
+    <string name="module8">நாணய எழுத்தறிவு</string>
+    <string name="module9">மற்ற</string>
+
+    <string name="about_us">எங்களை பற்றி</string>
+    <string name="rate_us">தயவுசெய்து மதிப்பிடவும்\u0020\u0020</string>
+    <string name="version">பதிப்பு: 1.1</string>
+    <string name="wait">காத்திருக்கவும் ...</string>
+    <string name="fill_all">முழு விவரங்களை நிரப்புக</string>
+    <string name="viewed">காண்க:</string>
+    <string name="total">மொத்தம்:</string>
+    <string name="initial_viewed1">தேடுவது:\u0020\u00200\u0020\u0020\u0020\u0020மொத்தம்:\u0020\u00201</string>
+    <string name="initial_viewed2">தேடுவது:\u0020\u00200\u0020\u0020\u0020\u0020மொத்தம்:\u0020\u00202</string>
+    <string name="initial_viewed3">தேடுவது:\u0020\u00200\u0020\u0020\u0020\u0020மொத்தம்:\u0020\u00203</string>
+    <string name="initial_viewed6">தேடுவது:\u0020\u00200\u0020\u0020\u0020\u0020மொத்தம்:\u0020\u00206</string>
+
+    <string name="mfi">MFI</string>
+    <string name="mfisubmit">சமர்ப்பிக்க</string>
+    <string name="mfi_field_staff">எஃப்.ஐ.எஃப் ஃபிளைட் ஸ்டெப்</string>
+    <string name="name_of_branch">கிளை பெயர்</string>
+    <string name="branch_id">கிளை ஐடி</string>
+    <string name="name">பெயர்</string>
+    <string name="designation">குறிப்புமுறைகள்</string>
+    <string name="id_staff">ஊழியர்கள் ஐடி</string>
+    <string name="location">பிளேஸ்</string>
+    <string name="geo_location">புவியியல் இடம்</string>
+
+    <string name="identify_yourself">உங்களை அடையாளம் காணவும்</string>
+    <string name="mfi_staff">MFI பணியாளர்கள்</string>
+    <string name="mfi_client">MFI கிளையண்ட்</string>
+    <string name="shg_member">SHG உறுப்பினர்கள்</string>
+    <string name="others">மற்றவர்கள்</string>
+    <string name="kids">குழந்தைகள்</string>
+    <string name="group_registration">குழு பதிவு</string>
+    <string name="t_group_name">குழு பெயர்</string>
+    <string name="centre_group_id">மையம் / குழு ஐடி</string>
+    <string name="total_member">மொத்த உறுப்பினர்கள்</string>
+    <string name="enter_as_user">பயனர் என உள்ளிடவும்</string>
+    <string name="manage_grps">குழுக்களை நிர்வகி</string>
+    <string name="or">அல்லது</string>
+    <string name="existing_groups">தற்போதுள்ள குழுக்கள்</string>
+    <string name="new_group">புதிய குழு</string>
+    <string name="take_attendance">கலந்து கொள்ளுங்கள்</string>
+    <string name="date">தேதி</string>
+    <string name="no_of_members_present">உறுப்பினர்கள் எண்ணிக்கை</string>
+    <string name="time">நேரம்</string>
+    <string name="group_name_module">குழு பெயர் :\n</string>
+    <string name="group_id_module">குழு ஐடி :\n</string>
+    <string name="select_grp">குழுக்களைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="toast">குழு பெயர் மற்றும் ஐடியை நிரப்பவும்</string>
+    <string name="specify_MFI">MFI ஐ குறிப்பிடவும்</string>
+    <string name="specify_designation">நியமனம் குறிப்பிடு</string>
+    <string name="whose_customer_are_you">யாருடைய வாடிக்கையாளர் நீ?</string>
+    <string name="how_did_you_know_about_the_app">பயன்பாட்டைப் பற்றி உங்களுக்கு எப்படி தெரியும்?</string>
+    <string name="video_source">மூல:\u0020</string>
+    <string name="video_duration">காலம்:\u0020</string>
+    <string name="before_watching_vdo">இந்த வீடியோவை பார்க்கும் முன்பு சில எளிய கேள்விகளுக்கு பதிலளிக்கவும்</string>
+    <string name="proceed">தொடர</string>
+    <string name="cancel">ரத்து</string>
+    <string name="next">அடுத்த</string>
+    <string name="correct_answer">!!! சரியான பதில் !!!</string>
+    <string name="ans_should_b">!!! பதில் இருக்க வேண்டும் \'</string>
+    <string name="please_select_an_option">தயவுசெய்து ஒரு விருப்பத்தைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="what_u_learnt_from_vdo">இந்த வீடியோவிலிருந்து நீங்கள் கற்றதைப் பார்ப்போம்</string>
+    <string name="result">விளைவாக</string>
+
+    <string name="family1">பொருளாதார திட்டம்</string>
+    <string name="family2">பட்ஜெட்</string>
+    <string name="family3">தேவைகள் மற்றும் விரும்புவது</string>
+    <string name="saving1">பிரதமர் ஜான் தண் யோஜனா</string>
+    <string name="saving2">அடிப்படை சேமிப்பு வங்கி வைப்பு கணக்கு (BSBDA)</string>
+    <string name="saving3">சேமிப்பு மற்றும் முதலீடு</string>
+    <string name="loan1">கடன்</string>
+    <string name="loan2">கடன் எழுத்தறிவு</string>
+    <string name="loan3">கடன் எழுத்தறிவு</string>
+    <string name="pension1">அடல் ஓய்வூதியத் திட்டம்</string>
+    <string name="pension2">தேசிய ஓய்வூதிய அமைப்பு</string>
+    <string name="digital1">ஏடிஎம் (ATM)</string>
+    <string name="digital2">ஏடிஎம் டெபிட் கார்டு - மோசடி மற்றும் தடுப்பு</string>
+    <string name="digital3">உதவி முறை செயல்படுத்தப்பட்ட வழிமுறை (AEPS)</string>
+    <string name="digital4">பீமா (BHIM) பயன்பாடு</string>
+    <string name="digital5">யுஎஸ்எஸ்டி (*99#)</string>
+    <string name="digital6">மைக்ரோ ஏடிஎம் (microATM) </string>
+    <string name="consumer1">ஏடிஎம் டெபிட் கார்டு - மோசடி மற்றும் தடுப்பு</string>
+    <string name="consumer2">புகார் குறைப்பு - ஒரு கடன் வாடிக்கையாளருக்கு</string>
+    <string name="consumer3">புகார் குறைபாடு - காப்பீட்டு கிளையண்ட்</string>
+    <string name="consumer4">புகார் குறைபாடு - ஓய்வூதிய வாடிக்கையாளர்களுக்கு</string>
+    <string name="consumer5">மின்னஞ்சல் மூலம் நிதி மோசடி</string>
+    <string name="consumer6">தொலைபேசி அழைப்பு மூலம் நிதி மோசடி</string>
+    <string name="consumer7">மோசடி மீது வரையறுக்கப்பட்ட பொறுப்பு</string>
+    <string name="currency1">ரூ .100 பாதுகாப்பு அம்சங்கள்</string>
+    <string name="currency2">ரூ .500 மற்றும் ரூ .2000 பாதுகாப்பு அம்சங்கள்</string>
+    <string name="other1">பொருளாதார திட்டம்</string>
+    <string name="other2">சேமிப்பு</string>
+    <string name="other3">வங்கி நன்மைகள்</string>
+    <string name="other4">கடன் -1</string>
+    <string name="other5">கடன் -2</string>
+    <string name="other6">MFI கடன்</string>
+    <string name="other7">KYC</string>
+    <string name="other8">ஓய்வுகால திட்டமிடல்</string>
+    <string name="other9">பீமா மற்றும் யுஎஸ்எஸ்டி</string>
+    <string name="other10">UPI</string>
+    <string name="other11">வணிக நிருபர்</string>
+    <string name="other12">கூட்டு அதிகாரம்</string>
+    <string name="other13">பணவீக்கம் மான்ஸ்டர்</string>
+    <string name="insurance1">பிரதான் மன்ரி ஜீவன் ஜோதி பீமா யோஜனா</string>
+    <string name="insurance2">பிரதான் மந்திரி ஜான் சரக்ஷா பீமா யோஜனா</string>
+    <string name="insurance3">கிரெகன்ஸ் ரெடெரல் - இன்சூரன்ஸ் கிளையண்ட்</string>
+    <string name="phone">தொலைபேசி அழைப்பு மூலம் நிதி மோசடி</string>
+    <string name="customerliable"> மோசடி மீது வரையறுக்கப்பட்ட பொறுப்பு</string>
+    <string name="email">மின்னஞ்சல் மூலம் நிதி மோசடி</string>
+    <string name="savings1">வங்கியில் சேமிப்பு</string>
+    <string name="savings2">சேமிப்பு</string>
+    <string name="savings3">வங்கி நன்மைகள்</string>
+    <string name="digitals1">பிஓஎஸ்</string>
+    <string name="digitals2">மின் பணப்பைகள்</string>
+    <string name="digitals3">மின்னஞ்சல் மூலம் நிதி மோசடி</string>
+    <string name="digitals4">பீமா மற்றும் யுஎஸ்எஸ்டி</string>
+    <string name="digitals5">யு.பி.ஐ</string>
+    <string name="digitals6">வணிக நிருபர்</string>
+    <string name="rp">ஓய்வுகால திட்டமிடல்</string>
+    <string name="kyc">கேஒய்சி </string>
+    <string name="poc">கூட்டு அதிகாரம்</string>
+    <string name="im">பணவீக்கம் மான்ஸ்டர்</string>
+
+
+    <string name="compulsory">கட்டாய</string>
+    <string name="supplementary_vidoes">கூடுதல் வீடியோக்கள்</string>
+    <string name="desirable">விரும்பப்படும்</string>
+    <string name="loan">பொறுப்பு கடன்</string>
+    <string name="insurance">காப்பீடு</string>
+    <string name="digital_transaction">டிஜிட்டல் பரிவர்த்தனை</string>
+    <string name="pension">ஓய்வூதிய</string>
+    <string name="financial_planning_and_budgeting">நிதி திட்டமிடல் மற்றும் பட்ஜெட்</string>
+    <string name="consumer_beware">நுகர்வோர் ஜாக்கிரதை</string>
+    <string name="currency_literacy">நாணய எழுத்தறிவு</string>
+    <string name="choices">தேர்வுகள்</string>
+    <string name="mfi_client_title">MFI Client</string>
+    <string name="client_id">Client ID</string>
+
+    <string-array name="mfi_name">
+        <item>MFI ஐத் தேர்ந்தெடுக்கவும்</item>
+        <item>மதுரா(Madura)</item>
+        <item>முனைப்பு(Pahal)</item>
+        <item>உறவு(Sambandh)</item>
+        <item>ஸ்மைல்(SMILE)</item>
+        <item>நல்ல நம்பிக்கை(Svasti)</item>
+        <item>மற்ற</item>
+    </string-array>
+
+    <string-array name="designation">
+        <item>பதவிக்கு தேர்வு செய்யவும்</item>
+        <item>கடன் அதிகாரி</item>
+        <item>உதவி கிளை மேலாளர்</item>
+        <item>கிளை மேலாளர்</item>
+        <item>மற்ற</item>
+    </string-array>
+
+    <string-array name="whose_customer">
+        <item>தேர்வு</item>
+        <item>வங்கி</item>
+        <item>MFI</item>
+        <item>இருவரும்</item>
+        <item>யாரும்</item>
+    </string-array>
+
+    <string-array name="how_know_the_app">
+        <item>தேர்வு</item>
+        <item>நண்பன்</item>
+        <item>குடும்ப</item>
+        <item>MFI பணியாளர்கள்</item>
+        <item>மற்ற</item>
+    </string-array>
+
+    <string-array name="education_list">
+        <item>கல்வி தேர்வு</item>
+        <item>படிப்பறிவில்லாத</item>
+        <item>முதன்மை (8 வது வரை)</item>
+        <item>இரண்டாம் நிலை (9 வது -10)</item>
+        <item>மூத்த இரண்டாம் நிலை (11 - 12)</item>
+        <item>டிப்ளமோ</item>
+        <item>பட்டம் மற்றும் மேலே</item>
+    </string-array>
+
+    <string-array name="occupation_list">
+        <item>தொழில் தேர்வு</item>
+        <item>சுயதொழில்</item>
+        <item>தொழிலாளர்</item>
+        <item>சம்பளம்</item>
+        <item>மாணவர்</item>
+        <item>இல்லத்தரசி</item>
+        <item>மற்ற</item>
+    </string-array>
+
+</resources>

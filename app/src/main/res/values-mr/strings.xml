@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="profile">वापरकर्ता प्रोफाइल</string>
+    <string name="gender">लिंग</string>
+    <string name="male">नर</string>
+    <string name="female">स्त्री</string>
+    <string name="other">इतर</string>
+    <string name="age">वय</string>
+    <string name="education">शिक्षण</string>
+    <string name="occupation">व्यवसाय</string>
+    <string name="locality">परिसर</string>
+    <string name="rural">ग्रामीण</string>
+    <string name="semi_urban">अर्ध-शहरी</string>
+    <string name="urban">शहरी</string>
+    <string name="state">राज्य</string>
+    <string name="district">जिल्हा</string>
+    <string name="doneButton">झाले</string>
+
+    <string name="module1">आर्थिक नियोजन आणि अंदाजपत्रक</string>
+    <string name="module2">बचत</string>
+    <string name="module3">कर्ज</string>
+    <string name="module4">विमा</string>
+    <string name="module5">पेन्शन</string>
+    <string name="module6">डिजिटल व्यवहार</string>
+    <string name="module7">जागे व्हा ग्राहक</string>
+    <string name="module8">चलन साक्षरता</string>
+    <string name="module9">इतर</string>
+
+    <string name="about_us">आमच्या विषयी</string>
+    <string name="rate_us">आम्हाला रेट करा\u0020\u0020</string>
+    <string name="version">आवृत्ती: 1.1</string>
+    <string name="wait">कृपया थांबा...</string>
+    <string name="fill_all">पूर्ण तपशील भरा</string>
+    <string name="viewed">पाहिलेले:</string>
+    <string name="total">एकूण:</string>
+    <string name="initial_viewed1">पाहिलेले:\u0020\u00200\u0020\u0020\u0020\u0020एकूण:\u0020\u00201</string>
+    <string name="initial_viewed2">पाहिलेले:\u0020\u00200\u0020\u0020\u0020\u0020एकूण:\u0020\u00202</string>
+    <string name="initial_viewed3">पाहिलेले:\u0020\u00200\u0020\u0020\u0020\u0020एकूण:\u0020\u00203</string>
+    <string name="initial_viewed6">पाहिलेले:\u0020\u00200\u0020\u0020\u0020\u0020एकूण:\u0020\u00206</string>
+
+    <string name="mfi">एमएफआय</string>
+    <string name="mfisubmit">सबमिट करा</string>
+    <string name="mfi_field_staff">एमएफआय फील्ड कर्मचारी</string>
+    <string name="name_of_branch">शाखेचे नाव</string>
+    <string name="branch_id">शाखा आयडी</string>
+    <string name="name">नाव</string>
+    <string name="designation">हुद्दा</string>
+    <string name="id_staff">कर्मचारी आयडी</string>
+    <string name="location">स्थान</string>
+    <string name="geo_location">भौगोलिक स्थान</string>
+
+    <string name="identify_yourself">स्वतःला ओळखा</string>
+    <string name="mfi_staff">एमएफआय कर्मचारी</string>
+    <string name="mfi_client">एमएफआय क्लायंट</string>
+    <string name="shg_member">स्वमदत गट सदस्य</string>
+    <string name="others">इतर</string>
+    <string name="kids">मुले</string>
+    <string name="group_registration">गट नोंदणी</string>
+    <string name="t_group_name">गटाचे नाव</string>
+    <string name="centre_group_id">केंद्र / गट आयडी</string>
+    <string name="total_member">एकूण सदस्य</string>
+    <string name="enter_as_user">वापरकर्ता म्हणून प्रविष्ट करा</string>
+    <string name="manage_grps">गट व्यवस्थापित करा</string>
+    <string name="or">किंवा</string>
+    <string name="existing_groups">विद्यमान गट</string>
+    <string name="new_group">नवीन गट</string>
+    <string name="take_attendance">उपस्थिती घ्या</string>
+    <string name="date">तारीख</string>
+    <string name="no_of_members_present">उपस्थित सदस्यांची संख्या</string>
+    <string name="time">वेळ</string>
+    <string name="group_name_module">गटाचे नाव :\n</string>
+    <string name="group_id_module">गट आयडी :\n</string>
+    <string name="select_grp">गट निवडा</string>
+    <string name="toast">कृपया गट नाव आणि आयडी भरा</string>
+    <string name="specify_MFI">एमएफआय निर्दिष्ट करा</string>
+    <string name="specify_designation">पद निर्दिष्ट करा</string>
+    <string name="whose_customer_are_you">आपण कोणाचा ग्राहक आहात?</string>
+    <string name="how_did_you_know_about_the_app">आपल्याला अॅपबद्दल काय माहिती आहे?</string>
+    <string name="video_source">स्त्रोत:\u0020</string>
+    <string name="video_duration">कालावधी:\u0020</string>
+    <string name="before_watching_vdo">हा व्हिडिओ पाहण्यापूर्वी काही सोपी प्रश्नांची उत्तरे द्या</string>
+    <string name="proceed">पुढे चला</string>
+    <string name="cancel">रद्द करा</string>
+    <string name="next">पुढे</string>
+    <string name="correct_answer">!!! बरोबर उत्तर !!!</string>
+    <string name="ans_should_b">!!! उत्तर पाहिजे \'</string>
+    <string name="please_select_an_option">कृपया एक पर्याय निवडा</string>
+    <string name="what_u_learnt_from_vdo">चला, आपण या व्हिडिओवरून काय शिकलात ते पाहू</string>
+    <string name="result">परिणाम</string>
+
+    <string name="family1">आर्थिक नियोजन</string>
+    <string name="family2">बजेटिंग</string>
+    <string name="family3">गरज आणि इच्छितात</string>
+    <string name="saving1">पंतप्रधान जन धन योजना (PMJDY)</string>
+    <string name="saving2">बेसिक बचत बँक ठेव खाते (BSBDA)</string>
+    <string name="saving3">बचत</string>
+    <string name="saving4">बँक खाते कसे काम करावे</string>
+    <string name="loan1">कर्ज घेण्याची प्रक्रिया</string>
+    <string name="loan2">क्रेडिट साक्षरता</string>
+    <string name="insurance1">पंतप्रधान जीवन ज्योती विमा योजना</string>
+    <string name="insurance2">पंतप्रधानांच्या जन सुरक्षा विमा योजना</string>
+    <string name="pension1">अटल पेंशन योजना</string>
+    <string name="pension2">नॅशनल पेंशन सिस्टम</string>
+    <string name="digital1">एटीएम</string>
+    <string name="digital2">मायक्रो एटीएम</string>
+    <string name="digital3">समर्थन सक्षम पेमेंट पद्धत (AEPS)</string>
+    <string name="digital4">यूएसएसडी (*99#)</string>
+    <string name="digital5">भीम (BHIM) ऐप</string>
+    <string name="digital6">पीओएस (POS)</string>
+    <string name="digital7">ई-वॉलेट</string>
+    <string name="consumer1">एटीएम डेबिट कार्ड - फसवणूक आणि प्रतिबंध</string>
+    <string name="consumer2">तक्रार निवारण - कर्ज ग्राहकासाठी</string>
+    <string name="consumer3">तक्रार निवारण - विमा ग्राहकासाठी</string>
+    <string name="consumer4">तक्रार निवारण - पेन्शन ग्राहकासाठी</string>
+    <string name="consumer5">ईमेलद्वारे आर्थिक फसवणूक</string>
+    <string name="consumerI">ईमेलद्वारे आर्थिक फसवणूक-1</string>
+    <string name="consumerII">ईमेलद्वारे आर्थिक फसवणूक-2</string>
+    <string name="consumer6">फोन कॉलद्वारे आर्थिक फसवणूक</string>
+    <string name="currency1">100 रूपयांची सुरक्षा वैशिष्ट्ये</string>
+    <string name="currency2">रु. 500 आणि 2000 चे सुरक्षात्मक वैशिष्ट्ये</string>
+    <string name="other1">आर्थिक उत्पादने</string>
+    <string name="other2">विमा आणि पेन्शन उत्पाद</string>
+    <string name="other3">बँकेकडून कर्ज</string>
+    <string name="other4">ईमेलद्वारे आर्थिक फसवणूक</string>
+    <string name="other5">डिजिटल पेमेंट</string>
+    <string name="other6">बँकिंग फायदे</string>
+    <string name="other7">केवायसी (KYC)</string>
+    <string name="other8">फंड ट्रान्सफर - एनईएफटी (NEFT)</string>
+    <string name="other9">ईमेलद्वारे आर्थिक फसवणूक</string>
+    <string name="other10">भीम (BHIM) आणि यूएसएसडी (USSD)</string>
+    <string name="other11">डिजिटल वित्तीय सेवा</string>
+    <string name="other12">व्यवसाय प्रतिनिधी</string>
+    <string name="other13">यूपीआय (UPI)</string>
+    <string name="compulsory">अनिवार्य</string>
+    <string name="supplementary_vidoes">पुरवणी व्हिडिओ</string>
+    <string name="desirable">इष्ट</string>
+    <string name="loan">जबाबदार कर्ज घेण्याची प्रक्रिया</string>
+    <string name="insurance">विमा</string>
+    <string name="digital_transaction">डिजिटल व्यवहार</string>
+    <string name="pension">पेन्शन</string>
+    <string name="financial_planning_and_budgeting">आर्थिक नियोजन आणि अंदाजपत्रक</string>
+    <string name="consumer_beware">ग्राहक सावध रहा</string>
+    <string name="currency_literacy">चलन साक्षरता</string>
+    <string name="loanbank">बँकेकडून कर्ज</string>
+    <string name="savings">बचत</string>
+    <string name="hb">बँक खाते कसे काम करावे</string>
+    <string name="bb">बँकिंग फायदे</string>
+    <string name="ipp">विमा आणि पेन्शन उत्पाद</string>
+    <string name="choices">निवडी</string>
+    <string name="mfi_client_title">MFI Client</string>
+    <string name="client_id">Client ID</string>
+
+
+    <string-array name="mfi_name">
+        <item>एमएफआय निवडा</item>
+        <item>मदुरा(Madura)</item>
+        <item>पहल(Pahal)</item>
+        <item>संबंध(Sambandh)</item>
+        <item>स्माइल(SMILE)</item>
+        <item>स्वस्ति(Svasti)</item>
+        <item>इतर</item>
+    </string-array>
+
+    <string-array name="designation">
+        <item>पदनाम निवडा</item>
+        <item>कर्ज अधिकारी</item>
+        <item>सहाय्यक शाखा व्यवस्थापक</item>
+        <item>शाखा व्यवस्थापक</item>
+        <item>इतर</item>
+    </string-array>
+
+    <string-array name="whose_customer">
+        <item>निवडा</item>
+        <item>बँक</item>
+        <item>एमएफआय</item>
+        <item>दोन्ही</item>
+        <item>काहीही नाही</item>
+    </string-array>
+
+    <string-array name="how_know_the_app">
+        <item>निवडा</item>
+        <item>मित्र</item>
+        <item>कुटुंब</item>
+        <item>एमएफआय कर्मचारी</item>
+        <item>इतर</item>
+    </string-array>
+
+    <string-array name="education_list">
+        <item>शिक्षण निवडा</item>
+        <item>निरक्षर</item>
+        <item>प्राथमिक (8 पर्यंत)</item>
+        <item>माध्यमिक (9 -10 वा)</item>
+        <item>वरिष्ठ माध्यमिक (11 वी - 12 वी)</item>
+        <item>डिप्लोमा</item>
+        <item>पदवी आणि वरील</item>
+    </string-array>
+
+    <string-array name="occupation_list">
+        <item>व्यवसाय निवडा</item>
+        <item>स्वयं-नियोजित</item>
+        <item>कामगार</item>
+        <item>पगारदार</item>
+        <item>विद्यार्थी</item>
+        <item>गृहिणी</item>
+        <item>इतर</item>
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="compulsory">Compulsory</string>
+    <string name="supplementary_vidoes">Supplementary Vidoes</string>
+    <string name="desirable">Desirable</string>
+    <string name="loan">Responsible Borrowing</string>
+    <string name="insurance">Insurance</string>
+    <string name="digital_transaction">Digital Transaction</string>
+    <string name="pension">Pension</string>
+    <string name="financial_planning_and_budgeting">Financial Planning and Budgeting</string>
+    <string name="consumer_beware">Consumer Beware</string>
+    <string name="currency_literacy">Currency Literacy</string>
+    <string name="choices">Choices</string>
+    <string name="mfi_client_title">MFI Client</string>
+    <string name="client_id">Client ID</string>
+</resources>

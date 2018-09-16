@@ -1,0 +1,1606 @@
+<resources>
+
+    <string name="lang_english">English</string>
+    <string name="lang_hindi">हिंदी</string>
+    <string name="lang_tamil">தமிழ்</string>
+    <string name="lang_gujarati">ગુજરાતી</string>
+    <string name="lang_marathi">मराठी</string>
+    <string name="lang_kannada">ಕನ್ನಡ</string>
+    <string name="lang_oriya">ଓଡ଼ିଆ</string>
+
+    <string name="app_name">Samavit</string>
+    <string name="copyright">Copyright \u00a9 Samavit Vikas Pvt Ltd.</string>
+    <string name="profile">User Profile</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="age">Age</string>
+    <string name="education">Education</string>
+    <string name="occupation">Occupation</string>
+    <string name="locality">Locality</string>
+    <string name="rural">Rural</string>
+    <string name="semi_urban">Semi-Urban</string>
+    <string name="urban">Urban</string>
+    <string name="state">State</string>
+    <string name="district">District</string>
+    <string name="doneButton">Done</string>
+
+    <string name="module1">Financial Planning And Budgeting</string>
+    <string name="module2">Savings</string>
+    <string name="module3">Loan</string>
+    <string name="module4">Insurance</string>
+    <string name="module5">Pension</string>
+    <string name="module6">Digital Transaction</string>
+    <string name="module7">Consumer Beware</string>
+    <string name="module8">Currency Literacy</string>
+    <string name="module9">Others</string>
+
+    <string name="about_us">About Us</string>
+    <string name="rate_us">Rate Us\u0020\u0020</string>
+    <string name="version">Version: 1.1</string>
+    <string name="wait">Please Wait...</string>
+    <string name="fill_all">Fill Complete Details</string>
+    <string name="viewed">Viewed:</string>
+    <string name="total">Total:</string>
+    <string name="initial_viewed1">Viewed:\u0020\u00200\u0020\u0020\u0020\u0020Total:\u0020\u00201</string>
+    <string name="initial_viewed2">Viewed:\u0020\u00200\u0020\u0020\u0020\u0020Total:\u0020\u00202</string>
+    <string name="initial_viewed3">Viewed:\u0020\u00200\u0020\u0020\u0020\u0020Total:\u0020\u00203</string>
+    <string name="initial_viewed6">Viewed:\u0020\u00200\u0020\u0020\u0020\u0020Total:\u0020\u00206</string>
+
+    <string name="mfi">MFI</string>
+    <string name="mfisubmit">Submit</string>
+    <string name="mfi_field_staff">MFI Field Staff</string>
+    <string name="name_of_branch">Name of Branch</string>
+    <string name="branch_id">Branch ID</string>
+    <string name="name">Name</string>
+    <string name="designation">Designation</string>
+    <string name="id_staff">Staff ID</string>
+    <string name="location">Location</string>
+    <string name="geo_location">Geo Location</string>
+
+    <string name="identify_yourself">Identify Yourself</string>
+    <string name="mfi_staff">MFI Staff</string>
+    <string name="mfi_client">MFI Client</string>
+    <string name="shg_member">SHG Members</string>
+    <string name="others">Others</string>
+    <string name="kids">Kids</string>
+    <string name="group_registration">Group Registration</string>
+    <string name="t_group_name">Group Name</string>
+    <string name="centre_group_id">Centre/Group ID</string>
+    <string name="total_member">Total members</string>
+    <string name="enter_as_user">Enter As User</string>
+    <string name="manage_grps">Manage Groups</string>
+    <string name="or">Or</string>
+    <string name="existing_groups">Existing Groups</string>
+    <string name="new_group">New Group</string>
+    <string name="take_attendance">Take Attendance</string>
+    <string name="date">Date</string>
+    <string name="no_of_members_present">No of members present</string>
+    <string name="time">Time</string>
+    <string name="group_name_module">Group Name :\n</string>
+    <string name="group_id_module">Group ID :\n</string>
+    <string name="select_grp">Select Groups</string>
+    <string name="toast">Please fill group name and ID</string>
+    <string name="specify_MFI">Specify MFI</string>
+    <string name="specify_designation">Specify Designation</string>
+    <string name="whose_customer_are_you">Whose customer are you?</string>
+    <string name="how_did_you_know_about_the_app">How did you know about this app?</string>
+    <string name="video_source">Source:\u0020</string>
+    <string name="video_duration">Duration:\u0020</string>
+    <string name="before_watching_vdo">Please answer few simple questions before watching this video.</string>
+    <string name="proceed">Proceed</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="correct_answer">!!! Correct Answer !!!</string>
+    <string name="ans_should_b">!!! Answer should be \'</string>
+    <string name="please_select_an_option">Please select an option</string>
+    <string name="what_u_learnt_from_vdo">Let us see, what you have learnt from this video.</string>
+    <string name="result">Result</string>
+
+    <string name="family1">Financial Planning</string>
+    <string name="family2">Budgeting</string>
+    <string name="family3">Needs and Wants</string>
+    <string name="saving1">Importance of Savings</string>
+    <string name="saving2">Savings in Bank</string>
+    <string name="saving3">PMJDY and BSBDA</string>
+    <string name="loan1">Borrowing</string>
+    <string name="loan2">Credit Literacy</string>
+    <string name="insurance1">Types of Insurance</string>
+    <string name="insurance2">Pradhan Mantri Jeevan Jyoti Bima Yojana</string>
+    <string name="insurance3">Pradhan Mantri Jan Suraksha Bima Yojana</string>
+    <string name="pension1">National Pension System</string>
+    <string name="pension2">Atal Pension Yojna</string>
+    <string name="digital1">RuPay ATM</string>
+    <string name="aeps">Aadhaar Enabled Payment System (AEPS)</string>
+    <string name="digital3">USSD (*99#)</string>
+    <string name="bhim">BHIM App</string>
+    <string name="digital5">RuPay POS</string>
+    <string name="digital6">E-Wallets</string>
+    <string name="consumer1">ATM Debit Card - Fraud &amp; Prevention</string>
+    <string name="consumer2">Grievance Redressal –For Loan Client</string>
+    <string name="consumer3">Customer Liability and Remedies</string>
+    <string name="currency1">Security Features of Rs.100</string>
+    <string name="currency2">Security Features of Rs.500 and Rs.2000</string>
+    <string name="other1">Financial Planning - 1</string>
+    <string name="other2">Financial Planning - 2</string>
+    <string name="other3">Financial Products</string>
+    <string name="other4">KYC</string>
+    <string name="other5">Savings</string>
+    <string name="other6">Savings in Bank</string>
+    <string name="other7">How to Operate a Bank a/c</string>
+    <string name="other8">Sukanya Samriddhi Account</string>
+    <string name="other9">Borrowing</string>
+    <string name="other10">Loan from Bank</string>
+    <string name="other11">Insurance and Pension Products</string>
+    <string name="other12">Rashtriya Swasthya Bima Yojana (RSBY)</string>
+    <string name="other13">Retirement Planning</string>
+    <string name="other14">Digital Financial Services</string>
+    <string name="other15">ATM</string>
+    <string name="other16">ATM Debit Card - Fraud and Prevention</string>
+    <string name="other17">Inflation Monster</string>
+    <string name="other18">Power of Compounding</string>
+
+    <string name="other_module1">Financial Planning and Budgeting</string>
+    <string name="other_module2">Financial Products</string>
+    <string name="other_module3">KYC</string>
+    <string name="other_module4">Savings</string>
+    <string name="other_module5">Loan</string>
+    <string name="other_module6">Insurance and Pension</string>
+    <string name="other_module7">Digital Transactions</string>
+    <string name="other_module8">Others</string>
+
+    <string name="do_you_like_this_video">Do You like this video?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="compulsory">Compulsory</string>
+    <string name="supplementary_vidoes">Supplementary</string>
+    <string name="desirable">Desirable</string>
+    <string name="loan">Responsible Borrowing</string>
+    <string name="insurance">Insurance</string>
+    <string name="digital_transaction">Digital Transaction</string>
+    <string name="pension">Pension</string>
+    <string name="financial_planning_and_budgeting">Financial Planning and Budgeting</string>
+    <string name="consumer_beware">Consumer Beware</string>
+    <string name="currency_literacy">Currency Literacy</string>
+    <string name="choices">Choices</string>
+    <string name="mfi_client_title">MFI Client</string>
+    <string name="client_id">Client ID</string>
+
+    <string-array name="before_questions">
+        <item>I find it more satisfying to spend money than to save it for the long term.</item><!--Financial Planning-->
+        <item>I pay my utility bills (e.g. electricity, LPG, post paid mobile bills) on time</item>
+        <item>I tend to live for today and let tomorrow take care of itself.</item><!--budgeting-->
+        <item>I find it more satisfying to spend money than to save it for the long term.</item>
+        <item>I only buy things which I can afford.</item><!--needs and want-->
+        <item>We should firstly meet our needs (essential to life) and then to our wants (branded dress, car, etc.)</item>
+        <item>I don\'t have money to save.</item><!--Importance of Savings-->
+        <item>Savings is not something that I need to do.</item>
+        <item>We should start with small amount.</item><!-- saving in bank-->
+        <item>We should start saving at an early age.</item>
+        <item>Which documents are considered valid KYC for availing loan?</item><!-- borrowing-->
+        <item>Take as much loan as you can repay on time.</item>
+        <item>How should the loan taken from MFI be used for___</item><!--credit literacy-->
+        <item>The repayment of loan should be made out of__</item>
+        <item>Insurance is a type of ___</item><!--Insurance-->
+        <item>Insurance is not required for me and for my family.</item>
+        <item>Pradhan Mantri Suraksha Bima Yojana (PMSBY) is a kind of:</item><!--pmsby-->
+        <item>Is there any sum assured under the Pradhan Mantri Suraksha Bima Yojana?</item>
+        <item>I don’t need pension.</item><!--nps-->
+        <item>Pension is only for those who generate surplus income.</item>
+        <item>What is Rupay Card?</item><!--Rupay card-->
+        <item>I share my ATM pin with friends and family members.</item>
+        <item>What is Aadhaar Card?</item><!--AEPS-->
+        <item>Can banking transaction be performed using Aadhaar No.?</item>
+        <item>Can you perform banking transaction using simple mobile phone?</item><!--USSD-->
+        <item>Are you aware about *99#?</item>
+        <item>What is BHIM App?</item><!--BHIM-->
+        <item>Can banking transaction be performed using BHIM?</item>
+        <item>What is POS machine?</item><!--Rupay POS-->
+        <item>RuPay card can be used to make payment at___</item>
+        <item>I have heard about e-wallet.</item><!--E-wallet-->
+        <item>I or any of my family member use the e-wallet.</item>
+        <item>We should check for ATM card cloning device within the ATM slot when using ATM machine?</item><!--ATM Debit Card - Fraud & Prevention:-->
+        <item>Should we share PIN No. with bank\'s guard or someone standing outside the ATM?</item>
+        <item>I know whom to report in the case of misbehaviour by financial institution officials.</item><!--Grievance Redressal for loan client:-->
+        <item>If I report about the misbehaviour of the MFI staff, this may negatively affect my chance of getting loan in future from the MFI.</item>
+        <item>I know how to identify fake Indian currency notes.</item><!--Security of 100-->
+        <item>Who is authorised to print currency notes of Rs. 10 and above?</item>
+        <item>Security threads are found in which currency notes?</item><!--Security of 500 and 2000:-->
+        <item>What is prohibited from writing on the currency notes?</item>
+    </string-array>
+
+    <string-array name="before_optionA">
+        <item>Yes</item><!--Financial Planning-->
+        <item>Yes</item>
+        <item>Yes</item><!--budgeting-->
+        <item>Yes</item>
+        <item>Yes</item><!--needs and want-->
+        <item>Yes</item>
+        <item>Agree</item><!--Importance of Savings-->
+        <item>Yes</item>
+        <item>Agree</item><!-- saving in bank-->
+        <item>Agree</item>
+        <item>Aadhar Card</item><!-- borrowing-->
+        <item>Agree</item>
+        <item>Marriage</item><!--credit literacy-->
+        <item>Business Profit</item>
+        <item>Savings</item><!--Insurance-->
+        <item>Agree</item>
+        <item>Life insurance</item><!--pmsby-->
+        <item>Yes</item>
+        <item>Yes</item><!--nps-->
+        <item>Yes</item>
+        <item>Marriage Card</item><!--Rupay card-->
+        <item>Yes</item>
+        <item>Marriage Card</item><!--AEPS-->
+        <item>Yes</item>
+        <item>Yes</item><!--USSD-->
+        <item>Yes</item>
+        <item>GOD</item><!--BHIM-->
+        <item>Yes</item>
+        <item>Electronic Payment Device</item><!--Rupay POS-->
+        <item>Grocery</item>
+        <item>Yes</item><!--E-wallet-->
+        <item>Yes</item>
+        <item>Yes</item><!--ATM Debit Card - Fraud & Prevention:-->
+        <item>Yes</item>
+        <item>Yes</item><!--Grievance Redressal for loan client:-->
+        <item>Yes</item>
+        <item>Yes</item><!--Security of 100-->
+        <item>RBI</item>
+        <item>Rs. 50</item><!--Security of 500 and 2000:-->
+        <item>Political Message</item>
+    </string-array>
+
+    <string-array name="before_optionB">
+        <item>No</item><!--Financial Planning-->
+        <item>No</item>
+        <item>No</item><!--budgeting-->
+        <item>No</item>
+        <item>No</item><!--needs and want-->
+        <item>No</item>
+        <item>Disagree</item><!--Importance of Savings-->
+        <item>No</item>
+        <item>Disagree</item><!-- saving in bank-->
+        <item>Disagree</item>
+        <item>Voter ID</item><!-- borrowing-->
+        <item>Disagree</item>
+        <item>Buying Jewellery</item><!--credit literacy-->
+        <item>Loan from friend</item>
+        <item>Pension</item><!--insurance-->
+        <item>Disagree</item>
+        <item>Livestock insurance</item><!--pmsby-->
+        <item>No</item>
+        <item>No</item><!--nps-->
+        <item>No</item>
+        <item>ATM-cum-Debit Card</item><!--Rupay card-->
+        <item>No</item>
+        <item>ATM-cum-Debit Card</item><!--AEPS-->
+        <item>No</item>
+        <item>No</item><!--USSD-->
+        <item>No</item>
+        <item>Mobile App</item><!--BHIM-->
+        <item>No</item>
+        <item>ATM machine</item><!--Rupay POS-->
+        <item>Petrol pump</item>
+        <item>No</item><!--E-wallet-->
+        <item>No</item>
+        <item>No</item><!--ATM Debit Card - Fraud & Prevention:-->
+        <item>No</item>
+        <item>No</item><!--Grievance Redressal for loan client:-->
+        <item>No</item>
+        <item>No</item><!--Security of 100-->
+        <item>President of India</item>
+        <item>Rs. 100</item><!--Security of 500 and 2000:-->
+        <item>Religious Message</item>
+    </string-array>
+
+    <string-array name="before_optionC">
+        <item></item><!--Financial Planning-->
+        <item></item>
+        <item></item><!--budgeting-->
+        <item></item>
+        <item></item><!--needs and want-->
+        <item></item>
+        <item></item><!--Importance of Savings-->
+        <item>Don\'t Care</item>
+        <item></item><!-- saving in bank-->
+        <item></item>
+        <item>Driving license</item><!-- borrowing-->
+        <item></item>
+        <item>Business</item><!--credit literacy-->
+        <item>Loan from moneylender</item>
+        <item>Protection against any possible loss or eventuality</item><!--insurance-->
+        <item></item>
+        <item>Accidental insurance</item><!--pmsby-->
+        <item></item>
+        <item></item><!--nps-->
+        <item></item>
+        <item>Visiting Card</item><!--Rupay card-->
+        <item>I don’t use ATM card</item>
+        <item>Unique Identity Card</item><!--AEPS-->
+        <item></item>
+        <item></item><!--USSD-->
+        <item></item>
+        <item>Both</item><!--BHIM-->
+        <item></item>
+        <item>None of these</item><!--Rupay POS-->
+        <item>Hotel</item>
+        <item></item><!--e-wallet-->
+        <item></item>
+        <item></item><!--ATM Debit Card - Fraud & Prevention:-->
+        <item></item>
+        <item></item><!--Grievance Redressal for loan client:-->
+        <item></item>
+        <item></item><!--Security of 100-->
+        <item>Government of India</item>
+        <item>Rs 500</item><!--Security of 500 and 2000:-->
+        <item>Personal message</item>
+    </string-array>
+
+    <string-array name="before_optionD">
+        <item></item><!--Financial Planning-->
+        <item></item>
+        <item></item><!--budgeting-->
+        <item></item>
+        <item></item><!--needs and want-->
+        <item></item>
+        <item></item><!--Importance of Savings-->
+        <item></item>
+        <item></item><!-- saving in bank-->
+        <item></item>
+        <item>All of them</item><!-- borrowing-->
+        <item></item>
+        <item></item><!--credit literacy-->
+        <item></item>
+        <item></item><!--insurance-->
+        <item></item>
+        <item></item><!--pmsby-->
+        <item></item>
+        <item></item><!--nps-->
+        <item></item>
+        <item></item><!--Rupay card-->
+        <item></item>
+        <item></item><!--AEPS-->
+        <item></item>
+        <item></item><!--USSD-->
+        <item></item>
+        <item></item><!--BHIM-->
+        <item></item>
+        <item></item><!--Rupay POS-->
+        <item>All of these</item>
+        <item></item><!--e-wallet-->
+        <item></item>
+        <item></item><!--ATM Debit Card - Fraud & Prevention:-->
+        <item></item>
+        <item></item><!--Grievance Redressal for loan client:-->
+        <item></item>
+        <item></item><!--Security of 100-->
+        <item></item>
+        <item>All of the above</item><!--Security of 500 and 2000:-->
+        <item>All of the above</item>
+    </string-array>
+
+    <string-array name="before_answer">
+        <item>No</item><!--Financial Planning-->
+        <item>Yes</item>
+        <item>No</item><!--budgeting-->
+        <item>No</item>
+        <item>Yes</item><!--needs and want-->
+        <item>Yes</item>
+        <item>Disagree</item><!--Importance of Savings-->
+        <item>No</item>
+        <item>Agree</item><!-- saving in bank-->
+        <item>Agree</item>
+        <item>All of them</item><!-- borrowing-->
+        <item>Agree</item>
+        <item>Business</item><!--credit literacy-->
+        <item>Business Profit</item>
+        <item>Protection against any possible loss or eventuality</item><!--insurance-->
+        <item>Disagree</item>
+        <item>Accidental insurance</item><!--pmsby-->
+        <item>No</item>
+        <item>No</item><!--nps-->
+        <item>No</item>
+        <item>ATM-cum-Debit Card</item><!--Rupay card-->
+        <item>No</item>
+        <item>Unique Identity Card</item><!--AEPS-->
+        <item>Yes</item>
+        <item>Yes</item><!--USSD-->
+        <item>Yes</item>
+        <item>Mobile App</item><!--BHIM-->
+        <item>Yes</item>
+        <item>Electronic Payment Device</item><!--Rupay POS-->
+        <item>All of these</item>
+        <item>Yes</item><!--e-wallet-->
+        <item>Yes</item>
+        <item>Yes</item><!--ATM Debit Card - Fraud & Prevention:-->
+        <item>No</item>
+        <item>Yes</item><!--Grievance Redressal for loan client:-->
+        <item>No</item>
+        <item>Yes</item><!--Security of 100-->
+        <item>RBI</item>
+        <item>All of the above</item><!--Security of 500 and 2000:-->
+        <item>All of the above</item>
+    </string-array>
+
+    <string-array name="after_question">
+        <item>By financial planning, we get to know about our</item><!--Financial Planning-->
+        <item>When your expenses become more than your income, what should you do first?</item>
+        <item>Should Budget exceed Expenses?</item><!--budgeting-->
+        <item>Should we make list before shopping?</item>
+        <item>Are branded clothes need or want?</item><!--needs and want-->
+        <item>Should we have limit on our wants(desires)?</item>
+        <item>Who did good job: Grasshopper or Ant?</item><!--Importance of Savings-->
+        <item>How did Pravin buy badminton?</item>
+        <item>Can children above 10 years have their bank account?</item><!-- saving in bank-->
+        <item>Your money in bank account___</item>
+        <item>One should take loan for____</item><!-- borrowing-->
+        <item>The amount to repay loan will be ____principal amount.</item>
+        <item>The repayment of loan should be made out of__</item><!--credit literacy-->
+        <item>What is the result of on time repayment of loan?</item>
+        <item>Different types of insurance are:</item><!--insurance-->
+        <item>We should only insure our lives, not our livestock and other properties.</item>
+        <item>How much is the premium for Pradhan Mantri Suraksha Bima Yojana ?</item><!--pmsby-->
+        <item>Eligibility for age under PMSBY is __</item>
+        <item>What is the age group to register for NPS?</item><!--nps-->
+        <item>Which organization regulates NPS?</item>
+        <item>We can use ATM for__</item><!--Rupay card-->
+        <item>Will you share ATM Card details with anyone?</item>
+        <item>Which biometric is not used in AEPS?</item><!--AEPS-->
+        <item>We can use AEPS for___</item>
+        <item>What is *99#?</item><!--USSD-->
+        <item>Which types of banking transaction can be done using *99#?</item>
+        <item>Full form of BHIM is:</item><!--BHIM-->
+        <item>BHIM is used for ___</item>
+        <item>Should the ATM PIN be shared with the shopkeeper for making payment through POS machine?</item><!--Rupay POS-->
+        <item>After making the payment through POS, what should you get back from the POS holder?</item>
+        <item>For using e-wallet facility, the following is required:</item><!--e-wallet-->
+        <item>You can load/credit your e-wallet through:</item>
+        <item>While typing on ATM keypad -</item><!--ATM Debit Card - Fraud & Prevention:-->
+        <item>What to do if ATM transaction fails while cash withdrawal?</item>
+        <item>What is the time duration an MFI officer can visit your house?</item><!--Grievance Redressal for loan client:-->
+        <item>What to do if an MFI officer threatens you?</item>
+        <item>What will you see in white window of Rs. 100 note in light?</item><!--Security of 100:-->
+        <item>What provision is made on the bottom-left side for blind people in Rs. 100 note?</item>
+        <item>What is written on the security thread of new Rs.2000 note?</item><!--Security of 500 and 2000:-->
+        <item>Which picture of Fort is printed on the new Rs.500 note?</item>
+    </string-array>
+
+    <string-array name="after_optionA">
+        <item>Income and Expense</item><!--Financial Planning-->
+        <item>Cut down unnecessary expenses</item>
+        <item>Yes</item><!--budgeting-->
+        <item>Yes</item>
+        <item>Need</item><!--needs and want-->
+        <item>Yes</item>
+        <item>Grasshopper</item><!--Importance of Savings-->
+        <item>By Saving</item>
+        <item>Yes</item><!-- saving in bank-->
+        <item>Increases</item>
+        <item>Need (essentials)</item><!-- borrowing-->
+        <item>More Than</item>
+        <item>Business profit</item><!--credit literacy-->
+        <item>Good credit history</item>
+        <item>Life insurance</item><!--insurance-->
+        <item>Yes</item>
+        <item>Rs. 12</item><!--pmsby-->
+        <item>Below 18 years</item>
+        <item>Below 18 years</item><!--nps-->
+        <item>Patanjali</item>
+        <item>Cash Withdrawal</item><!--Rupay card-->
+        <item>Yes</item>
+        <item>Fingerprint</item><!--AEPS-->
+        <item>Cash Withdrawal</item>
+        <item>SMS based banking transaction</item><!--USSD-->
+        <item>Balance Enquiry</item>
+        <item>Bharat India Mumbai</item><!--BHIM-->
+        <item>Banking transaction</item>
+        <item>Yes</item><!--Rupay POS-->
+        <item>Transaction sleep</item>
+        <item>Bank Account</item><!--e-wallet-->
+        <item>Debit Card</item>
+        <item>Don’t hide keypad</item><!--ATM Debit Card - Fraud & Prevention:-->
+        <item>Press Cancel button</item>
+        <item>7am-6pm</item><!--Grievance Redressal for loan client:-->
+        <item>Call Grievance Redressal Number</item>
+        <item>Mahatma Gandhi Image</item><!--Security of 100:-->
+        <item>Triangular Shape</item>
+        <item>भारत RBI 2000</item><!--Security of 500 and 2000:-->
+        <item>Red Fort</item>
+    </string-array>
+
+    <string-array name="after_optionB">
+        <item>Net savings or deficit</item><!--Financial Planning-->
+        <item>Borrow from moneylender</item>
+        <item>No</item><!--budgeting-->
+        <item>No</item>
+        <item>Want</item><!--needs and want-->
+        <item>No</item>
+        <item>Ant</item><!--Importance of Savings-->
+        <item>By Parents\' money</item>
+        <item>No</item><!-- saving in bank-->
+        <item>Decreases</item>
+        <item>Want (non-essentials)</item><!-- borrowing-->
+        <item>Less than</item>
+        <item>Loan from friend</item><!--credit literacy-->
+        <item>Possibility of getting loan in future</item>
+        <item>Accidental and Health insurance</item><!--insurance-->
+        <item>No</item>
+        <item>Rs. 1200</item><!--pmsby-->
+        <item>18 to 70 years</item>
+        <item>18 to 65 years</item><!--nps-->
+        <item>PFRDA</item>
+        <item>Balance Enquiry</item><!--Rupay card-->
+        <item>No</item>
+        <item>Iris</item><!--AEPS-->
+        <item>Balance Enquiry</item>
+        <item>For checking mobile talktime</item><!--USSD-->
+        <item>Fund Transfer</item>
+        <item>Bharat Interface for Money</item><!--BHIM-->
+        <item>Playing Games</item>
+        <item>Never</item><!--Rupay POS-->
+        <item>ATM Card</item>
+        <item>Smart Phone</item><!--e-wallet-->
+        <item>Internet Banking</item>
+        <item>Hide keypad</item><!--ATM Debit Card - Fraud & Prevention:-->
+        <item>Do nothing</item>
+        <item>6pm-7am</item><!--Grievance Redressal for loan client:-->
+        <item>Beat him</item>
+        <item>Parliament Image</item><!--Security of 100:-->
+        <item>Rectangular Shape</item>
+        <item>इंडिया RBI</item><!--Security of 500 and 2000:-->
+        <item>Babar Fort</item>
+    </string-array>
+
+    <string-array name="after_optionC">
+        <item>Essential and Non-essential expenses</item><!--Financial Planning-->
+        <item>Borrow from financial institution</item>
+        <item></item><!--budgeting-->
+        <item></item>
+        <item>Both</item><!--needs and want-->
+        <item>Doesn\'t Matter</item>
+        <item>Both</item><!--Importance of Savings-->
+        <item>By Stealing</item>
+        <item></item><!-- saving in bank-->
+        <item>Remains Same</item>
+        <item>Both</item><!-- borrowing-->
+        <item>Same as</item>
+        <item>Loan from moneylender</item><!--credit literacy-->
+        <item>No worry</item>
+        <item>Livestock Insurance</item><!--insurance-->
+        <item></item>
+        <item>Rs. 12000</item><!--pmsby-->
+        <item>Any age group</item>
+        <item>Any age group</item><!--nps-->
+        <item>BCCI</item>
+        <item>Mini Statement</item><!--Rupay card-->
+        <item></item>
+        <item>Heartbeat</item><!--AEPS-->
+        <item>Fund Transfer</item>
+        <item></item><!--USSD-->
+        <item>Both</item>
+        <item>Bhala Ho Iska aur Mera</item><!--BHIM-->
+        <item></item>
+        <item></item><!--Rupay POS-->
+        <item>Both</item>
+        <item>Internet</item><!--e-wallet-->
+        <item>BC Agent</item>
+        <item>Don\'t look the keypad</item><!--ATM Debit Card - Fraud & Prevention:-->
+        <item></item>
+        <item>Anytime</item><!--Grievance Redressal for loan client:-->
+        <item>Follow him</item>
+        <item>Transparent</item><!--Security of 100:-->
+        <item>Nothing</item>
+        <item>Nothing</item><!--Security of 500 and 2000:-->
+        <item>White Fort</item>
+    </string-array>
+
+    <string-array name="after_optionD">
+        <item>All of the above</item><!--Financial Planning-->
+        <item>All of the above</item>
+        <item></item><!--budgeting-->
+        <item></item>
+        <item></item><!--needs and want-->
+        <item></item>
+        <item></item><!--Importance of Savings-->
+        <item></item>
+        <item></item><!-- saving in bank-->
+        <item></item>
+        <item></item><!-- borrowing-->
+        <item></item>
+        <item></item><!--credit literacy-->
+        <item>All of the above</item>
+        <item>All of the above</item><!--insurance-->
+        <item></item>
+        <item></item><!--pmsby-->
+        <item></item>
+        <item></item><!--nps-->
+        <item></item>
+        <item>All of the above</item><!--Rupay card-->
+        <item></item>
+        <item></item><!--AEPS-->
+        <item>All of the above</item>
+        <item></item><!--USSD-->
+        <item></item>
+        <item></item><!--BHIM-->
+        <item></item>
+        <item></item><!--Rupay POS-->
+        <item></item>
+        <item>All of the above</item><!--e-wallet-->
+        <item>Both</item>
+        <item></item><!--ATM Debit Card - Fraud & Prevention:-->
+        <item></item>
+        <item></item><!--Grievance Redressal for loan client:-->
+        <item></item>
+        <item></item><!--Security of 100:-->
+        <item></item>
+        <item></item><!--Security of 500 and 2000:-->
+        <item></item>
+    </string-array>
+
+    <string-array name="after_answer">
+        <item>All of the above</item><!--Financial Planning-->
+        <item>Cut down unnecessary expenses</item>
+        <item>No</item><!--Budgeting-->
+        <item>Yes</item>
+        <item>Want</item><!--needs and want-->
+        <item>Yes</item>
+        <item>Ant</item><!--Importance of Savings-->
+        <item>By Saving</item>
+        <item>Yes</item><!-- saving in bank-->
+        <item>Increases</item>
+        <item>Need (essentials)</item><!-- borrowing-->
+        <item>More Than</item>
+        <item>Business profit</item><!--credit literacy-->
+        <item>All of the above</item>
+        <item>All of the above</item><!--insurance-->
+        <item>No</item>
+        <item>Rs. 12</item><!--pmsby-->
+        <item>18 to 70 years</item>
+        <item>18 to 65 years</item><!--nps-->
+        <item>PFRDA</item>
+        <item>All of the above</item><!--Rupay card-->
+        <item>No</item>
+        <item>Hertbeat</item><!--AEPS-->
+        <item>All of the above</item>
+        <item>SMS based banking transaction</item><!--USSD-->
+        <item>Both</item>
+        <item>Bharat Interface for Money</item><!--BHIM-->
+        <item>Banking transaction</item>
+        <item>Never</item><!--Rupay POS-->
+        <item>Both</item>
+        <item>All of the above</item><!--e-wallet-->
+        <item>Both</item>
+        <item>Hide keypad</item><!--ATM Debit Card - Fraud & Prevention:-->
+        <item>Press Cancel button</item>
+        <item>7am-6pm</item><!--Grievance Redressal for loan client:-->
+        <item>Call Grievance Redressal Number</item>
+        <item>Mahatma Gandhi Image</item><!--Security of 100:-->
+        <item>Triangular Shape</item>
+        <item>भारत RBI 2000</item><!--Security of 500 and 2000:-->
+        <item>Red Fort</item>
+    </string-array>
+
+    <string-array name="mfi_name">
+        <item>Choose MFI</item>
+        <item>Madura</item>
+        <item>Pahal</item>
+        <item>Sambandh</item>
+        <item>SMILE</item>
+        <item>Svasti</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="designation">
+        <item>Choose designation</item>
+        <item>Loan Officer</item>
+        <item>Assistant Branch Manager</item>
+        <item>Branch Manager</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="whose_customer">
+        <item>Choose</item>
+        <item>Bank</item>
+        <item>MFI</item>
+        <item>Both</item>
+        <item>None</item>
+    </string-array>
+
+    <string-array name="how_know_the_app">
+        <item>Choose</item>
+        <item>Friend</item>
+        <item>Family</item>
+        <item>MFI Staff</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="age_list">
+        <item>Choose Age</item>
+        <item>10-20</item>
+        <item>21-25</item>
+        <item>26-30</item>
+        <item>31-35</item>
+        <item>36-40</item>
+        <item>41-50</item>
+        <item>51-60</item>
+        <item>61-70</item>
+        <item>71-80</item>
+    </string-array>
+
+    <string-array name="education_list">
+        <item>Choose Education</item>
+        <item>Illiterate</item>
+        <item>Primary (up to 8th)</item>
+        <item>Secondary (9th -10th)</item>
+        <item>Senior Secondary (11th - 12th)</item>
+        <item>Diploma</item>
+        <item>Degree and above</item>
+    </string-array>
+
+    <string-array name="occupation_list">
+        <item>Choose Occupation</item>
+        <item>Self-Employed</item>
+        <item>Labour</item>
+        <item>Salaried</item>
+        <item>Student</item>
+        <item>Housewife</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="states_list">
+        <item>Choose State</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>New Delhi</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+
+    <string-array name="district_list">
+        <item>Choose District</item>
+    </string-array>
+
+    <string-array name="andhra_pradesh">
+        <item>Choose District</item>
+        <item>Anantapur</item>
+        <item>Chittoor</item>
+        <item>East Godavari</item>
+        <item>Guntur</item>
+        <item>Kadapa</item>
+        <item>Krishna</item>
+        <item>Kurnool</item>
+        <item>Prakasam</item>
+        <item>Sri Potti Sriramulu Nellore</item>
+        <item>Srikakulam</item>
+        <item>Visakhapatnam</item>
+        <item>Vizianagaram</item>
+        <item>West Godavari</item>
+    </string-array>
+
+    <string-array name="arunachal">
+        <item>Choose District</item>
+        <item>Anjaw</item>
+        <item>Changlang</item>
+        <item>East Kameng</item>
+        <item>East Siang</item>
+        <item>Kamle</item>
+        <item>Kra Daadi</item>
+        <item>Kurung Kumey</item>
+        <item>Lohit</item>
+        <item>Longding</item>
+        <item>Lower Dibang Valley</item>
+        <item>Lower Siang</item>
+        <item>Lower Subansiri</item>
+        <item>Namsai</item>
+        <item>Papum Pare</item>
+        <item>Siang</item>
+        <item>Tawang</item>
+        <item>Tirap</item>
+        <item>Upper Dibang Valley</item>
+        <item>Upper Siang</item>
+        <item>Upper Subansiri</item>
+        <item>West Kameng</item>
+        <item>West Siang</item>
+    </string-array>
+
+    <string-array name="assam">
+        <item>Choose District</item>
+        <item>Baksa</item>
+        <item>Barpeta</item>
+        <item>Bishwanath</item>
+        <item>Bongaigaon</item>
+        <item>Cachar</item>
+        <item>Charaideo</item>
+        <item>Chirang</item>
+        <item>Darrang</item>
+        <item>Dhemaji</item>
+        <item>Dhubri</item>
+        <item>Dibrugarh</item>
+        <item>Dima Hasao</item>
+        <item>Goalpara</item>
+        <item>Golaghat</item>
+        <item>Hailakandi</item>
+        <item>Hojai</item>
+        <item>Jorhat</item>
+        <item>Kamrup</item>
+        <item>Kamrup Metropolitan</item>
+        <item>Karbi Anglong</item>
+        <item>Karimganj</item>
+        <item>Kokrajhar</item>
+        <item>Lakhimpur</item>
+        <item>Majuli</item>
+        <item>Morigaon</item>
+        <item>Nagaon</item>
+        <item>Nalbari</item>
+        <item>Sivasagar</item>
+        <item>South Salmara-Mankachar</item>
+        <item>Sonitpur</item>
+        <item>Tinsukia</item>
+        <item>Udalguri</item>
+        <item>West Karbi Anglong</item>
+    </string-array>
+
+    <string-array name="bihar">
+        <item>Choose District</item>
+        <item>Araria</item>
+        <item>Arwal</item>
+        <item>Aurangabad</item>
+        <item>Banka</item>
+        <item>Begusarai</item>
+        <item>Bhagalpur</item>
+        <item>Bhojpur</item>
+        <item>Buxar</item>
+        <item>Darbhanga</item>
+        <item>East Champaran</item>
+        <item>Gaya</item>
+        <item>Gopalganj</item>
+        <item>Jamui</item>
+        <item>Jehanabad</item>
+        <item>Kaimur</item>
+        <item>Katihar</item>
+        <item>Khagaria</item>
+        <item>Kishanganj</item>
+        <item>Lakhisarai</item>
+        <item>Madhepura</item>
+        <item>Madhubani</item>
+        <item>Munger</item>
+        <item>Muzaffarpur</item>
+        <item>Nalanda</item>
+        <item>Nawada</item>
+        <item>Patna</item>
+        <item>Purnia</item>
+        <item>Rohtas</item>
+        <item>Saharsa</item>
+        <item>Samastipur</item>
+        <item>Saran</item>
+        <item>Sheikhpura</item>
+        <item>Sheohar</item>
+        <item>Sitamarhi</item>
+        <item>Siwan</item>
+        <item>Supaul</item>
+        <item>Vaishali</item>
+        <item>West Champaran</item>
+    </string-array>
+
+    <string-array name="chandigarh">
+        <item>Choose District</item>
+        <item>Chandigarh</item>
+    </string-array>
+
+    <string-array name="chattisgarh">
+        <item>Choose District</item>
+        <item>Balod</item>
+        <item>Baloda Bazar</item>
+        <item>Balrampur</item>
+        <item>Bastar</item>
+        <item>Bemetara</item>
+        <item>Bijapur</item>
+        <item>Bilaspur</item>
+        <item>Dantewada</item>
+        <item>Dhamtari</item>
+        <item>Durg</item>
+        <item>Gariaband</item>
+        <item>Janjgir-Champa</item>
+        <item>Jashpur</item>
+        <item>Kabirdham</item>
+        <item>Kanker</item>
+        <item>Kondagaon</item>
+        <item>Korba</item>
+        <item>Koriya</item>
+        <item>Mahasamund</item>
+        <item>Mungeli</item>
+        <item>Narayanpur</item>
+        <item>Raigarh</item>
+        <item>Raipur</item>
+        <item>Rajnandgaon</item>
+        <item>Sukma</item>
+        <item>Surajpur</item>
+        <item>Surguja</item>
+    </string-array>
+
+    <string-array name="goa">
+        <item>Choose District</item>
+        <item>North Goa</item>
+        <item>South Goa</item>
+    </string-array>
+
+    <string-array name="gujarat">
+        <item>Choose District</item>
+        <item>Ahmedabad</item>
+        <item>Amreli</item>
+        <item>Anand</item>
+        <item>Aravalli</item>
+        <item>Banaskantha</item>
+        <item>Bharuch</item>
+        <item>Bhavnagar</item>
+        <item>Botad</item>
+        <item>Chhota Udaipur</item>
+        <item>Dahod</item>
+        <item>Dang</item>
+        <item>Devbhoomi Dwarka</item>
+        <item>Gandhinagar</item>
+        <item>Gir Somnath</item>
+        <item>Jamnagar</item>
+        <item>Junagadh</item>
+        <item>Kheda</item>
+        <item>Kutch</item>
+        <item>Mahisagar</item>
+        <item>Mehsana</item>
+        <item>Morbi</item>
+        <item>Narmada</item>
+        <item>Navsari</item>
+        <item>Panchmahal</item>
+        <item>Patan</item>
+        <item>Porbandar</item>
+        <item>Rajkot</item>
+        <item>Sabarkantha</item>
+        <item>Surat</item>
+        <item>Surendranagar</item>
+        <item>Tapi</item>
+        <item>Vadodara</item>
+        <item>Valsad</item>
+    </string-array>
+
+    <string-array name="haryana">
+        <item>Choose District</item>
+        <item>Ambala</item>
+        <item>Bhiwani</item>
+        <item>Charkhi Dadri</item>
+        <item>Faridabad</item>
+        <item>Fatehabad</item>
+        <item>Gurgaon</item>
+        <item>Hissar</item>
+        <item>Jhajjar</item>
+        <item>Jind</item>
+        <item>Kaithal</item>
+        <item>Karnal</item>
+        <item>Kurukshetra</item>
+        <item>Mahendragarh</item>
+        <item>Nuh</item>
+        <item>Palwal</item>
+        <item>Panchkula</item>
+        <item>Panipat</item>
+        <item>Rewari</item>
+        <item>Rohtak</item>
+        <item>Sirsa</item>
+        <item>Sonipat</item>
+        <item>Yamuna Nagar</item>
+    </string-array>
+
+    <string-array name="hp">
+        <item>Choose District</item>
+        <item>Bilaspur</item>
+        <item>Chamba</item>
+        <item>Hamirpur</item>
+        <item>Kangra</item>
+        <item>Kinnaur</item>
+        <item>Kullu</item>
+        <item>Lahaul and Spiti</item>
+        <item>Mandi</item>
+        <item>Shimla</item>
+        <item>Sirmaur</item>
+        <item>Solan</item>
+        <item>Una</item>
+    </string-array>
+
+    <string-array name="jk">
+        <item>Choose District</item>
+        <item>Anantnag</item>
+        <item>Bandipora</item>
+        <item>Baramulla</item>
+        <item>Badgam</item>
+        <item>Doda</item>
+        <item>Ganderbal</item>
+        <item>Jammu</item>
+        <item>Kargil</item>
+        <item>Kathua</item>
+        <item>Kishtwar</item>
+        <item>Kulgam</item>
+        <item>Kupwara</item>
+        <item>Leh</item>
+        <item>Poonch</item>
+        <item>Pulwama</item>
+        <item>Rajouri</item>
+        <item>Ramban</item>
+        <item>Reasi</item>
+        <item>Samba</item>
+        <item>Shopian</item>
+        <item>Srinagar</item>
+        <item>Udhampur</item>
+    </string-array>
+
+    <string-array name="jharkhand">
+        <item>Choose District</item>
+        <item>Bokaro</item>
+        <item>Chatra</item>
+        <item>Deoghar</item>
+        <item>Dhanbad</item>
+        <item>Dumka</item>
+        <item>East Singhbhum</item>
+        <item>Garhwa</item>
+        <item>Giridih</item>
+        <item>Godda</item>
+        <item>Gumla</item>
+        <item>Hazaribag</item>
+        <item>Jamtara</item>
+        <item>Khunti</item>
+        <item>Koderma</item>
+        <item>Latehar</item>
+        <item>Lohardaga</item>
+        <item>Pakur</item>
+        <item>Palamu</item>
+        <item>Ramgarh</item>
+        <item>Ranchi</item>
+        <item>Sahibganj</item>
+        <item>Seraikela Kharsawan</item>
+        <item>Simdega</item>
+        <item>West Singhbhum</item>
+    </string-array>
+
+    <string-array name="karnatka">
+        <item>Choose District</item>
+        <item>Bagalkot</item>
+        <item>Ballari</item>
+        <item>Belagavi</item>
+        <item>Bengaluru Rural</item>
+        <item>Bengaluru Urban</item>
+        <item>Bidar</item>
+        <item>Chamarajnagar</item>
+        <item>Chikkaballapur</item>
+        <item>Chikkamagaluru</item>
+        <item>Chitradurga</item>
+        <item>Dakshina Kannada</item>
+        <item>Davanagere</item>
+        <item>Dharwad</item>
+        <item>Gadag</item>
+        <item>Hassan</item>
+        <item>Haveri</item>
+        <item>Kalaburagi</item>
+        <item>Kodagu</item>
+        <item>Kolar</item>
+        <item>Koppal</item>
+        <item>Mandya</item>
+        <item>Mysuru</item>
+        <item>Raichur</item>
+        <item>Ramanagara</item>
+        <item>Shivamogga</item>
+        <item>Tumakuru</item>
+        <item>Udupi</item>
+        <item>Uttara Kannada</item>
+        <item>Vijayapura</item>
+        <item>Yadgir</item>
+    </string-array>
+
+    <string-array name="kerala">
+        <item>Choose District</item>
+        <item>Alappuzha</item>
+        <item>Ernakulam</item>
+        <item>Idukki</item>
+        <item>Kannur</item>
+        <item>Kasaragod</item>
+        <item>Kollam</item>
+        <item>Kottayam</item>
+        <item>Kozhikode</item>
+        <item>Malappuram</item>
+        <item>Palakkad</item>
+        <item>Pathanamithitta</item>
+        <item>Thrissur</item>
+        <item>Thiruvananthapuram</item>
+        <item>Wayanad</item>
+    </string-array>
+
+    <string-array name="mp">
+        <item>Choose District</item>
+        <item>Agra Malwa</item>
+        <item>Alirajpur</item>
+        <item>Anuppur</item>
+        <item>Ashok Nagar</item>
+        <item>Balaghat</item>
+        <item>Barwani</item>
+        <item>Betul</item>
+        <item>Bhind</item>
+        <item>Bhopal</item>
+        <item>Burhanpur</item>
+        <item>Chhatarpur</item>
+        <item>Chindwara</item>
+        <item>Damoh</item>
+        <item>Datia</item>
+        <item>Dewas</item>
+        <item>Dhar</item>
+        <item>Dindori</item>
+        <item>Guna</item>
+        <item>Gwalior</item>
+        <item>Harda</item>
+        <item>Hoshangabad</item>
+        <item>Indore</item>
+        <item>Jabalpur</item>
+        <item>Jhabua</item>
+        <item>Katni</item>
+        <item>Khandwa(East Nimar)</item>
+        <item>Khargone(West Nimar)</item>
+        <item>Mandla</item>
+        <item>Mandsaur</item>
+        <item>Morena</item>
+        <item>Narsinghpur</item>
+        <item>Neemuch</item>
+        <item>Panna</item>
+        <item>Raisen</item>
+        <item>Rajgarh</item>
+        <item>Ratlam</item>
+        <item>Rewa</item>
+        <item>Sagar</item>
+        <item>Satna</item>
+        <item>Sehore</item>
+        <item>Seoni</item>
+        <item>Shahdol</item>
+        <item>Shajapur</item>
+        <item>Sheopur</item>
+        <item>Shivpuri</item>
+        <item>Sidhi</item>
+        <item>Singrauli</item>
+        <item>Tikamgarh</item>
+        <item>Ujjain</item>
+        <item>Umaria</item>
+        <item>Vidisha</item>
+    </string-array>
+
+    <string-array name="maharashtra">
+        <item>Choose District</item>
+        <item>Ahmednagar</item>
+        <item>Akola</item>
+        <item>Amravati</item>
+        <item>Aurangabad</item>
+        <item>Beed</item>
+        <item>Bhandara</item>
+        <item>Buldhana</item>
+        <item>Chandrapur</item>
+        <item>Dhule</item>
+        <item>Gadchiroli</item>
+        <item>Gondia</item>
+        <item>Hingoli</item>
+        <item>Jalgaon</item>
+        <item>Jalna</item>
+        <item>Kolhapur</item>
+        <item>Latur</item>
+        <item>Mumbai City</item>
+        <item>Mumbai suburban</item>
+        <item>Nanded</item>
+        <item>Nandurbar</item>
+        <item>Nagpur</item>
+        <item>Nashik</item>
+        <item>Osmanbad</item>
+        <item>Palghar</item>
+        <item>Parbhani</item>
+        <item>Pune</item>
+        <item>Raigad</item>
+        <item>Ratnagiri</item>
+        <item>Sangli</item>
+        <item>Satara</item>
+        <item>Sindhudurg</item>
+        <item>Solapur</item>
+        <item>Thane</item>
+        <item>Wardha</item>
+        <item>Washim</item>
+        <item>Yavatmal</item>
+    </string-array>
+
+    <string-array name="manipur">
+        <item>Choose District</item>
+        <item>Bishnupur</item>
+        <item>Churachandpur</item>
+        <item>Chandel</item>
+        <item>Imphal East</item>
+        <item>Imphal West</item>
+        <item>Senapati</item>
+        <item>Tamenglong</item>
+        <item>Thoubal</item>
+        <item>Ukhrul</item>
+    </string-array>
+
+    <string-array name="meghalaya">
+        <item>Choose District</item>
+        <item>East Garo Hills</item>
+        <item>East Khasi Hills</item>
+        <item>East Jaintia Hills</item>
+        <item>North Garo Hills</item>
+        <item>Ri Bhoi</item>
+        <item>South Garo Hills</item>
+        <item>South West Garo Hills</item>
+        <item>South West Khasi Hills</item>
+        <item>West jaintia Hills</item>
+        <item>West Garo Hills</item>
+        <item>West Khasi Hills</item>
+    </string-array>
+
+    <string-array name="mizoram">
+        <item>Choose District</item>
+        <item>Aizawl</item>
+        <item>Champhai</item>
+        <item>Kolasib</item>
+        <item>Lawngtlai</item>
+        <item>Lunglei</item>
+        <item>Mamit</item>
+        <item>Saiha</item>
+        <item>Serchhip</item>
+    </string-array>
+
+    <string-array name="nagaland">
+        <item>Choose District</item>
+        <item>Dimapur</item>
+        <item>Kiphire</item>
+        <item>Kohima</item>
+        <item>Longleng</item>
+        <item>Mokokchung</item>
+        <item>Mon</item>
+        <item>Peren</item>
+        <item>Phek</item>
+        <item>Tuensang</item>
+        <item>Wokha</item>
+        <item>Zunheboto</item>
+    </string-array>
+
+    <string-array name="new_delhi">
+        <item>Choose District</item>
+        <item>New Delhi</item>
+    </string-array>
+
+    <string-array name="odisha">
+        <item>Choose District</item>
+        <item>Angul</item>
+        <item>Boudh(Bauda)</item>
+        <item>Bhadrak</item>
+        <item>Balangir</item>
+        <item>Bargarh(Baragarh)</item>
+        <item>Balasore</item>
+        <item>Cuttack</item>
+        <item>Debagarh(Deogarh)</item>
+        <item>Dhenkanal</item>
+        <item>Ganjam</item>
+        <item>Gajapati</item>
+        <item>Jharsuguda</item>
+        <item>Jajpur</item>
+        <item>Jagatsinghpur</item>
+        <item>Khordha</item>
+        <item>Kendujhar(Keonjhar)</item>
+        <item>Kalahandi</item>
+        <item>Kandhamal</item>
+        <item>Koraput</item>
+        <item>Kendrapara</item>
+        <item>Malkangiri</item>
+        <item>Mayurbhanj</item>
+        <item>Nabarangpur</item>
+        <item>Nuapada</item>
+        <item>Nayagarh</item>
+        <item>Puri</item>
+        <item>Rayagada</item>
+        <item>Sambalpur</item>
+        <item>Subarnapur(Sonepur)</item>
+        <item>Sundargarh</item>
+    </string-array>
+
+    <string-array name="punjab">
+        <item>Choose District</item>
+        <item>Amritsar</item>
+        <item>Barnala</item>
+        <item>Bathinda</item>
+        <item>Firozpur</item>
+        <item>Faridkot</item>
+        <item>Fatehgarh Sahib</item>
+        <item>Fazilka</item>
+        <item>Gurdaspur</item>
+        <item>Hoshiarpur</item>
+        <item>Jalandhar</item>
+        <item>Kapurthala</item>
+        <item>Ludhiana</item>
+        <item>Mansa</item>
+        <item>Moga</item>
+        <item>Sri Muktsar Sahib</item>
+        <item>Pathankot</item>
+        <item>Patiala</item>
+        <item>Rupnagar</item>
+        <item>Sahibzada Ajit Singh Nagar</item>
+        <item>Sangrur</item>
+        <item>Shahid Bhagat Singh Nagar</item>
+        <item>Tarn Taran</item>
+    </string-array>
+
+    <string-array name="rajasthan">
+        <item>Choose District</item>
+        <item>Ajmer</item>
+        <item>Alwar</item>
+        <item>Bikaner</item>
+        <item>Barmer</item>
+        <item>Banswara</item>
+        <item>Bharatpur</item>
+        <item>Baran</item>
+        <item>Bundi</item>
+        <item>Bhilwara</item>
+        <item>Churu</item>
+        <item>Chittorgarh</item>
+        <item>Dausa</item>
+        <item>Dholpur</item>
+        <item>Dungarpur</item>
+        <item>Ganganagar</item>
+        <item>Hanumangarh</item>
+        <item>Jhunjhunu</item>
+        <item>Jalore</item>
+        <item>Jodhpur</item>
+        <item>Jaipur</item>
+        <item>Jaisalmer</item>
+        <item>Jhalawar</item>
+        <item>Karauli</item>
+        <item>Kota</item>
+        <item>Nagaur</item>
+        <item>Pali</item>
+        <item>Pratapgarh</item>
+        <item>Rajsamand</item>
+        <item>Sikar</item>
+        <item>Sawai Madhopur</item>
+        <item>Sirohi</item>
+        <item>Tonk</item>
+        <item>Udaipur</item>
+    </string-array>
+
+    <string-array name="sikkim">
+        <item>Choose District</item>
+        <item>East Sikkim</item>
+        <item>North Sikkim</item>
+        <item>South Sikkim</item>
+        <item>West Sikkim</item>
+    </string-array>
+
+    <string-array name="tamilnadu">
+        <item>Choose District</item>
+        <item>Ariyalur</item>
+        <item>Chennai</item>
+        <item>Coimbatore</item>
+        <item>Cuddalore</item>
+        <item>Dharmapuri</item>
+        <item>Dindigul</item>
+        <item>Erode</item>
+        <item>Kanchipuram</item>
+        <item>Kanyakumari</item>
+        <item>Karur</item>
+        <item>Krishnagiri</item>
+        <item>Madurai</item>
+        <item>Nagapattinam</item>
+        <item>Nilgiris</item>
+        <item>Namakkal</item>
+        <item>Perambalur</item>
+        <item>Pudukkottai</item>
+        <item>Ramnathapuram</item>
+        <item>Salem</item>
+        <item>Sivaganga</item>
+        <item>Tirupur</item>
+        <item>Tiruchirappalli</item>
+        <item>Theni</item>
+        <item>Tirunelveli</item>
+        <item>Thanjavur</item>
+        <item>Thoothukudi</item>
+        <item>Tiruvallur</item>
+        <item>Tiruvarur</item>
+        <item>Tiruvannamalai</item>
+        <item>Vellore</item>
+        <item>Viluppuram</item>
+        <item>Virudhunagar</item>
+    </string-array>
+
+    <string-array name="telangana">
+        <item>Choose District</item>
+        <item>Adilabad</item>
+        <item>Komaram Bheem Asifabad</item>
+        <item>Bhadradri Kothagudem</item>
+        <item>Hyderabad</item>
+        <item>Jagtial</item>
+        <item>Jangaon</item>
+        <item>Jayashankar Bhupalpally</item>
+        <item>Jogulamba Gadwal</item>
+        <item>Kamareddy</item>
+        <item>Karimnagar</item>
+        <item>Khammam</item>
+        <item>Mahbubabad</item>
+        <item>Mahbubnagar</item>
+        <item>Mancherial</item>
+        <item>Medak</item>
+        <item>Medchal</item>
+        <item>Nalgonda</item>
+        <item>Nagarkurnool</item>
+        <item>Nirmal</item>
+        <item>Nizamabad</item>
+        <item>Peddapalli</item>
+        <item>Rajanna Sircilla</item>
+        <item>Ranga Reddy</item>
+        <item>Sangareddy</item>
+        <item>Siddipet</item>
+        <item>Suryapet</item>
+        <item>Vikarabad</item>
+        <item>Wanaparthy</item>
+        <item>Warangal(urban)</item>
+        <item>Warangal(rural)</item>
+        <item>Yadadri Bhuvanagiri</item>
+    </string-array>
+
+    <string-array name="tripura">
+        <item>Choose District</item>
+        <item>Dhalai</item>
+        <item>Gomati</item>
+        <item>Khowai</item>
+        <item>North Tripura</item>
+        <item>Sepahijala</item>
+        <item>South Tripura</item>
+        <item>Unokoti</item>
+        <item>West Tripura</item>
+    </string-array>
+
+    <string-array name="uttarakhand">
+        <item>Choose District</item>
+        <item>Almora</item>
+        <item>Bageshwar</item>
+        <item>Chamoli</item>
+        <item>Champawat</item>
+        <item>Dehradun</item>
+        <item>Haridwar</item>
+        <item>Nainital</item>
+        <item>Pauri Garhwal</item>
+        <item>Pithoragarh</item>
+        <item>Rudraprayag</item>
+        <item>Tehri Garhwal</item>
+        <item>Udham Singh Nagar</item>
+        <item>Uttarkashi</item>
+    </string-array>
+
+    <string-array name="up">
+        <item>Choose District</item>
+        <item>Agra</item>
+        <item>Aligarh</item>
+        <item>Allahabad</item>
+        <item>Ambedkar Nagar</item>
+        <item>Amethi</item>
+        <item>Amroha</item>
+        <item>Auraiya</item>
+        <item>Azamgarh</item>
+        <item>Bagpat</item>
+        <item>Bahraich</item>
+        <item>Ballia</item>
+        <item>Balrampur</item>
+        <item>Banda</item>
+        <item>Barabanki</item>
+        <item>Bareilly</item>
+        <item>Basti</item>
+        <item>Bijnor</item>
+        <item>Budaun</item>
+        <item>Bulandshahr</item>
+        <item>Chandauli</item>
+        <item>Chitrakoot</item>
+        <item>Deoria</item>
+        <item>Etah</item>
+        <item>Etawah</item>
+        <item>Faizabad</item>
+        <item>Farrukhabad</item>
+        <item>Fatehpur</item>
+        <item>Firozabad</item>
+        <item>Gautam Buddh Nagar</item>
+        <item>Ghaziabad</item>
+        <item>Ghazipur</item>
+        <item>Gonda</item>
+        <item>Gorakhpur</item>
+        <item>Hamirpur</item>
+        <item>Hapur</item>
+        <item>Hardoi</item>
+        <item>Hathras</item>
+        <item>Jalaun</item>
+        <item>Jaunpur</item>
+        <item>Jhansi</item>
+        <item>Kannauj</item>
+        <item>Kanpur Dehat</item>
+        <item>Kanpur Nagar</item>
+        <item>Kasganj</item>
+        <item>Kaushambi</item>
+        <item>Kushinagar</item>
+        <item>Lakhimpur Kheri</item>
+        <item>Lalitpur</item>
+        <item>Lucknow</item>
+        <item>Maharajganj</item>
+        <item>Mahoba</item>
+        <item>Mainpuri</item>
+        <item>Mathura</item>
+        <item>Mau</item>
+        <item>Meerut</item>
+        <item>Mirzapur</item>
+        <item>Moradabad</item>
+        <item>Muzaffarnagar</item>
+        <item>Pilibhit</item>
+        <item>Pratapgarh</item>
+        <item>Raebareli</item>
+        <item>Rampur</item>
+        <item>Saharanpur</item>
+        <item>Sambhal</item>
+        <item>Sant Kabir Nagar</item>
+        <item>Bhadohi</item>
+        <item>Shahjahanpur</item>
+        <item>Shamli</item>
+        <item>Shravasti</item>
+        <item>Siddharthnagar</item>
+        <item>Sitapur</item>
+        <item>Sonbhadra</item>
+        <item>Sultanpur</item>
+        <item>Unnao</item>
+        <item>Varanasi</item>
+    </string-array>
+
+    <string-array name="west_bengal">
+        <item>Choose District</item>
+        <item>Alipurduar</item>
+        <item>Bankura</item>
+        <item>Paschim Bardhaman</item>
+        <item>Birbhum</item>
+        <item>Cooch Behar</item>
+        <item>Dakshin Dinajpur</item>
+        <item>Darjeeling</item>
+        <item>Hooghly</item>
+        <item>Howrah</item>
+        <item>Jalpaiguri</item>
+        <item>Jhargram</item>
+        <item>Kalimpong</item>
+        <item>Kolkata</item>
+        <item>Maldah</item>
+        <item>Murshidabad</item>
+        <item>Nadia</item>
+        <item>North 24 Parganas</item>
+        <item>Paschim Medinipur</item>
+        <item>Purba Medinipur</item>
+        <item>Purulia</item>
+        <item>South 24 Parganas</item>
+        <item>Uttar Dinajpur</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingBottom="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/module_border"
+        android:clickable="true"
+        android:id="@+id/rlFamily1">
+
+        <ImageView
+            android:id="@+id/ivFamily1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/family1" />
+
+        <TextView
+            android:id="@+id/tvFamily1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@+id/ivFamily1"
+            android:layout_toRightOf="@+id/ivFamily1"
+            android:text="@string/family1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tvSource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivFamily1"
+            android:layout_alignLeft="@+id/tvFamily1"
+            android:layout_alignStart="@+id/tvFamily1"
+            android:text="@string/video_source"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/tvDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivFamily1"
+            android:layout_alignEnd="@id/tvFamily1"
+            android:layout_alignRight="@id/tvFamily1"
+            android:text="@string/video_duration"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

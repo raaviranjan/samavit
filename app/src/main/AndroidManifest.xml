@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ravi.mfi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:configChanges="locale|orientation"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.ravi.mfi.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ravi.mfi.MFIStaffReg"></activity>
+        <activity android:name="com.example.ravi.mfi.NewGroupReg"></activity>
+        <activity android:name="com.example.ravi.mfi.SubModule2"></activity>
+        <activity android:name="com.example.ravi.mfi.EnterAs"></activity>
+        <activity android:name="com.example.ravi.mfi.Attendance"></activity>
+        <activity android:name="com.example.ravi.mfi.IdentifyYourself"></activity>
+        <activity android:name="com.example.ravi.mfi.About"></activity>
+        <activity android:name="com.example.ravi.mfi.MfiClientReg"></activity>
+        <activity android:name=".ChoicesMFI"
+            >
+        </activity>
+        <activity android:name=".ModuleSupplementary"
+            android:parentActivityName=".ChoicesMFI">
+        </activity>
+        <activity android:name=".ModuleDesirable"
+            android:parentActivityName=".ChoicesMFI">
+        </activity>
+        <activity android:name=".ModuleCompulsory"
+            android:parentActivityName=".ChoicesMFI">
+        </activity>
+    </application>
+
+</manifest>
