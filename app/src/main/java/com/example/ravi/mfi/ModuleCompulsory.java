@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -25,6 +26,7 @@ public class ModuleCompulsory extends AppCompatActivity {
     RelativeLayout comp_rlModule1, comp_rlModule2, comp_rlModule3, comp_rlModule4,des_rlModule2;
     TextView comp_tvViewsModule1, comp_tvViewsModule2, comp_tvViewsModule3, comp_tvViewsModule4,desi_tvViewsModule2;
     TextView comp_tvPer1, comp_tvPer2, comp_tvPer3, comp_tvPer4, desi_tvPer2;
+    Button comp_attendance_btn;
     String gName,gId,clicked,groupNameAndID,lang;
     SharedPreferences preferences;
     LinearLayout llGrpNameAndId;
@@ -46,6 +48,7 @@ public class ModuleCompulsory extends AppCompatActivity {
         llGrpNameAndId = findViewById(R.id.comp_llGrpNameAndId);
         tv_gName_on_Module = findViewById(R.id.comp_tv_gName_on_Module);
         tv_gId_on_Module = findViewById(R.id.comp_tv_gId_on_Module);
+        comp_attendance_btn = findViewById(R.id.comp_Attendance_btn);
 
         clicked = preferences.getString("clicked",null);
 
@@ -54,9 +57,18 @@ public class ModuleCompulsory extends AppCompatActivity {
             gId = preferences.getString("group_id",null);
             groupNameAndID = gName + gId;
             llGrpNameAndId.setVisibility(View.VISIBLE);
+            comp_attendance_btn.setVisibility(View.VISIBLE);
             tv_gName_on_Module.setText(getResources().getString(R.string.group_name_module) + gName);
             tv_gId_on_Module.setText(getResources().getString(R.string.group_id_module) + gId);
         }
+
+        comp_attendance_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ModuleCompulsory.this, Attendance.class);
+                startActivity(intent);
+            }
+        });
 
         if(clicked.equals("User"))
             viewed = getFromPref("views");
@@ -142,19 +154,7 @@ public class ModuleCompulsory extends AppCompatActivity {
             Intent intent = new Intent(ModuleCompulsory.this, About.class);
             startActivity(intent);
         }
-        if (id == R.id.attendance) {
-            Intent intent = new Intent(ModuleCompulsory.this, Attendance.class);
-            startActivity(intent);
-        }
         return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public boolean onPrepareOptionsMenu (Menu menu) {
-        if (clicked.equals("User")) {
-            menu.findItem(R.id.attendance).setEnabled(false).setVisible(false);
-        }
-        return true;
     }
 
     public int[][] getFromPref(String name) {

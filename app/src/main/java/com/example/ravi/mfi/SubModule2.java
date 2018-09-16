@@ -1457,18 +1457,7 @@ public class SubModule2 extends AppCompatActivity {
             Intent intent = new Intent(SubModule2.this, About.class);
             startActivity(intent);
         }
-        if (id == R.id.attendance) {
-            Intent intent = new Intent(SubModule2.this, Attendance.class);
-            startActivity(intent);
-        }
         return super.onOptionsItemSelected(item);
-    }
-    @Override
-    public boolean onPrepareOptionsMenu (Menu menu) {
-        if (clicked.equals("User")) {
-            menu.findItem(R.id.attendance).setEnabled(false).setVisible(false);//hiding the "Take Attendance" menu for normal user
-        }
-        return true;
     }
     public void quizAlert(int a, int flag){
         flag++;

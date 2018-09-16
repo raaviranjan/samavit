@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -23,6 +24,7 @@ public class ModuleSupplementary  extends AppCompatActivity{
     RelativeLayout supp_rlModule1, supp_rlModule2, supp_rlModule3, supp_rlModule4, supp_rlModule5, supp_rlModule6, supp_rlModule7;
     TextView supp_tvViewsModule1, supp_tvViewsModule2, supp_tvViewsModule3, supp_tvViewsModule4, supp_tvViewsModule5, supp_tvViewsModule6, supp_tvViewsModule7;
     TextView supp_tvPer1, supp_tvPer2, supp_tvPer3, supp_tvPer4, supp_tvPer5, supp_tvPer6, supp_tvPer7;
+    Button supp_attendance_btn;
     String gName,gId,clicked,groupNameAndID,lang;
     SharedPreferences preferences;
     LinearLayout llGrpNameAndId;
@@ -43,6 +45,7 @@ public class ModuleSupplementary  extends AppCompatActivity{
         llGrpNameAndId = findViewById(R.id.supp_llGrpNameAndId);
         tv_gName_on_Module = findViewById(R.id.supp_tv_gName_on_Module);
         tv_gId_on_Module = findViewById(R.id.supp_tv_gId_on_Module);
+        supp_attendance_btn = findViewById(R.id.supp_Attendance_btn);
 
         clicked = preferences.getString("clicked",null);
 
@@ -51,9 +54,18 @@ public class ModuleSupplementary  extends AppCompatActivity{
             gId = preferences.getString("group_id",null);
             groupNameAndID = gName + gId;
             llGrpNameAndId.setVisibility(View.VISIBLE);
+            supp_attendance_btn.setVisibility(View.VISIBLE);
             tv_gName_on_Module.setText(getResources().getString(R.string.group_name_module) + gName);
             tv_gId_on_Module.setText(getResources().getString(R.string.group_id_module) + gId);
         }
+
+        supp_attendance_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ModuleSupplementary.this, Attendance.class);
+                startActivity(intent);
+            }
+        });
 
         if(clicked.equals("User"))
             viewed = getFromPref("views");
@@ -157,19 +169,7 @@ public class ModuleSupplementary  extends AppCompatActivity{
             Intent intent = new Intent(ModuleSupplementary.this, About.class);
             startActivity(intent);
         }
-        if (id == R.id.attendance) {
-            Intent intent = new Intent(ModuleSupplementary.this, Attendance.class);
-            startActivity(intent);
-        }
         return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public boolean onPrepareOptionsMenu (Menu menu) {
-        if (clicked.equals("User")) {
-            menu.findItem(R.id.attendance).setEnabled(false).setVisible(false);
-        }
-        return true;
     }
 
     public int[][] getFromPref(String name) {

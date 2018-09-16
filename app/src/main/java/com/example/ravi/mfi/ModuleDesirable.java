@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -23,6 +24,7 @@ public class ModuleDesirable extends AppCompatActivity {
     RelativeLayout des_rlModule1, des_rlModule3, des_rlModule4;
     TextView desi_tvViewsModule1, desi_tvViewsModule3, desi_tvViewsModule4;
     TextView desi_tvPer1, desi_tvPer3, desi_tvPer4;
+    Button desi_attendance_btn;
     String gName,gId,clicked,groupNameAndID,lang;
     SharedPreferences preferences;
     LinearLayout llGrpNameAndId;
@@ -43,6 +45,7 @@ public class ModuleDesirable extends AppCompatActivity {
         llGrpNameAndId = findViewById(R.id.desi_llGrpNameAndId);
         tv_gName_on_Module = findViewById(R.id.desi_tv_gName_on_Module);
         tv_gId_on_Module = findViewById(R.id.desi_tv_gId_on_Module);
+        desi_attendance_btn = findViewById(R.id.desi_Attendance_btn);
 
         clicked = preferences.getString("clicked",null);
 
@@ -51,9 +54,18 @@ public class ModuleDesirable extends AppCompatActivity {
             gId = preferences.getString("group_id",null);
             groupNameAndID = gName + gId;
             llGrpNameAndId.setVisibility(View.VISIBLE);
+            desi_attendance_btn.setVisibility(View.VISIBLE);
             tv_gName_on_Module.setText(getResources().getString(R.string.group_name_module) + gName);
             tv_gId_on_Module.setText(getResources().getString(R.string.group_id_module) + gId);
         }
+
+        desi_attendance_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ModuleDesirable.this, Attendance.class);
+                startActivity(intent);
+            }
+        });
 
         if(clicked.equals("User"))
             viewed = getFromPref("views");
@@ -118,19 +130,7 @@ public class ModuleDesirable extends AppCompatActivity {
             Intent intent = new Intent(ModuleDesirable.this, About.class);
             startActivity(intent);
         }
-        if (id == R.id.attendance) {
-            Intent intent = new Intent(ModuleDesirable.this, Attendance.class);
-            startActivity(intent);
-        }
         return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public boolean onPrepareOptionsMenu (Menu menu) {
-        if (clicked.equals("User")) {
-            menu.findItem(R.id.attendance).setEnabled(false).setVisible(false);
-        }
-        return true;
     }
 
     public int[][] getFromPref(String name) {

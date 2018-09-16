@@ -10,6 +10,18 @@
         android:layout_height="match_parent"
         android:padding="10dp">
 
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/take_attendance"
+            android:background="@drawable/border_lang"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:id="@+id/comp_Attendance_btn"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
         <!--group name and group id-->
         <LinearLayout
             android:layout_width="match_parent"

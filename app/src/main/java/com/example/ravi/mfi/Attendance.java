@@ -22,6 +22,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -59,6 +60,7 @@ public class Attendance extends AppCompatActivity {
     Button bSubmitAttendance;
     ProgressDialog progressDialog;
     EditText no_member;
+    ImageView ibLocAttendance;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -89,6 +91,7 @@ public class Attendance extends AppCompatActivity {
         tvLocAttendance = findViewById(R.id.tvLocAttendance);
         no_member=findViewById(R.id.et_NoOfMemberPresent);
         bSubmitAttendance = findViewById(R.id.bSubmitAttendance);
+        ibLocAttendance = findViewById(R.id.ibLocAttendance);
 
         tvDateAttendance.setText(date);
         tvTimeAttendance.setText(currentTime);
@@ -118,13 +121,17 @@ public class Attendance extends AppCompatActivity {
                 }
             }
         });
-
-        locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
-        if(!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)){
-            buildAlertMsgNoGPS();
-        } else if(locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)){
-            getLocation();
-        }
+        ibLocAttendance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
+                if(!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)){
+                    buildAlertMsgNoGPS();
+                } else if(locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)){
+                    getLocation();
+                }
+            }
+        });
 
     }
     public void getLocation() {
