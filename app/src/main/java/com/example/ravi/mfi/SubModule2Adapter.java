@@ -645,7 +645,7 @@ public class SubModule2Adapter extends RecyclerView.Adapter<SubModule2Adapter.My
                         viewed[whichLang][position+offset] = 1;
                         storeInPref(preferenceString, viewed);
 
-                        
+
                     }
                     else
                     {
