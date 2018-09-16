@@ -18,6 +18,7 @@ import java.util.Locale;
  * Created by Somnath Yadav on 02-08-2018.
  */
 
+//space added
 public class ModuleCompulsory extends AppCompatActivity {
 
 
