@@ -536,6 +536,10 @@ public class SubModule2 extends AppCompatActivity {
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.aeps), R.drawable.digital2, urls[0][13],
                             "m3EngComp", "02:57", "NPCI"));
                     break;
+                case "Pension"://image ok
+                    blocks.add(new SubModule2Blocks(getResources().getString(R.string.pension2), R.drawable.pension2, urls[0][17],
+                            "m2EngDesi", "-", "-"));
+                    break;
             }
         }
         else if(choice.equals("desirable"))
@@ -548,10 +552,6 @@ public class SubModule2 extends AppCompatActivity {
                             "m1EngDesi", "04:20", "NCFE"));
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.family3), R.drawable.family3, urls[0][16],
                             "m1EngDesi", "04:48", "NCFE"));
-                    break;
-                case "Pension"://image ok
-                    blocks.add(new SubModule2Blocks(getResources().getString(R.string.pension2), R.drawable.pension2, urls[0][17],
-                            "m2EngDesi", "-", "-"));
                     break;
                 case "Consumer Beware"://image ok
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.other16), R.drawable.consumer1, urls[0][18],
@@ -634,7 +634,7 @@ public class SubModule2 extends AppCompatActivity {
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.consumer1), R.drawable.consumer2, urls[1][2],
                             "m1HinComp", "04:27", "MFIN"));
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.other6), R.drawable.vidya_balan, urls[1][22],
-                            "m1HinSupp", "01:34", "MFIN"));
+                            "m1HinComp", "01:34", "MFIN"));
                     break;
                 case "Savings"://image ok
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.saving1), R.drawable.saving1, urls[1][3],
@@ -666,6 +666,10 @@ public class SubModule2 extends AppCompatActivity {
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.bhim), R.drawable.digital5, urls[1][14],
                             "m4HinComp", "01:28", "NPCI"));
                     break;
+                case "Pension"://image ok
+                    blocks.add(new SubModule2Blocks(getResources().getString(R.string.atal), R.drawable.pension2, urls[1][17],
+                            "m2HinDesi", "02:32", "PFRDA"));
+                    break;
             }
         }
         else if(choice.equals("desirable"))
@@ -676,10 +680,6 @@ public class SubModule2 extends AppCompatActivity {
                             "m1HinDesi", "11:03", "NABARD"));
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.other1), R.drawable.family2, urls[1][16],
                             "m1HinDesi", "40:51", "Parinaam Foundation"));
-                    break;
-                case "Pension"://image ok
-                    blocks.add(new SubModule2Blocks(getResources().getString(R.string.atal), R.drawable.pension2, urls[1][17],
-                            "m2HinDesi", "02:32", "PFRDA"));
                     break;
                 case "Consumer Beware"://image ok
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.consumer4), R.drawable.consumer4hin, urls[1][18],
@@ -700,7 +700,7 @@ public class SubModule2 extends AppCompatActivity {
             switch (moduleName) {
                 case "Loan"://image ok
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.loan1), R.drawable.loan1, urls[1][0],
-                            "m1HinComp", "00:42", "NCFE"));
+                            "m1HinSupp", "00:42", "NCFE"));
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.other7), R.drawable.loan1, urls[1][23],
                             "m1HinSupp", "29:17", "Parinaam Foundation"));
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.other8), R.drawable.loan1, urls[1][24],
@@ -826,6 +826,10 @@ public class SubModule2 extends AppCompatActivity {
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.phone), R.drawable.consumer7hin, urls[2][15],
                             "m4GujComp", "03:46", "Tv9 Gujarati"));
                     break;
+                case "Pension"://image ok
+                    blocks.add(new SubModule2Blocks(getResources().getString(R.string.pension1), R.drawable.pension2, urls[2][19],
+                            "m2GujDesi", "00:38", "PFRDA"));
+                    break;
             }
         }
         else if(choice.equals("desirable"))
@@ -838,10 +842,6 @@ public class SubModule2 extends AppCompatActivity {
                             "m1GujDesi", "-", "-"));
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.family3), R.drawable.family3, urls[2][18],
                             "m1GujDesi", "-", "-"));
-                    break;
-                case "Pension"://image ok
-                    blocks.add(new SubModule2Blocks(getResources().getString(R.string.pension1), R.drawable.pension2, urls[2][19],
-                            "m2GujDesi", "00:38", "PFRDA"));
                     break;
                 case "Consumer Beware"://image ok
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.consumer4), R.drawable.consumer2, urls[2][20],
@@ -942,6 +942,10 @@ public class SubModule2 extends AppCompatActivity {
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.consumer6), R.drawable.consumer7hin, urls[3][14],
                             "m4MarComp", "-", "-"));
                     break;
+                case "Pension"://image ok
+                    blocks.add(new SubModule2Blocks(getResources().getString(R.string.pension1), R.drawable.pension2, urls[3][18],
+                            "m2MarDesi", "-", "-"));
+                    break;
             }
         }
         else if(choice.equals("desirable"))
@@ -954,10 +958,6 @@ public class SubModule2 extends AppCompatActivity {
                             "m1MarDesi", "-", "-"));
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.family3), R.drawable.family3, urls[3][17],
                             "m1MarDesi", "-", "-"));
-                    break;
-                case "Pension"://image ok
-                    blocks.add(new SubModule2Blocks(getResources().getString(R.string.pension1), R.drawable.pension2, urls[3][18],
-                            "m2MarDesi", "-", "-"));
                     break;
                 case "Consumer Beware"://image ok
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.consumer4), R.drawable.consumer2, urls[3][19],
@@ -1068,6 +1068,10 @@ public class SubModule2 extends AppCompatActivity {
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.phone), R.drawable.consumer7hin, urls[4][14],
                             "m4TamComp", "-", "-"));
                     break;
+                case "Pension"://image ok
+                    blocks.add(new SubModule2Blocks(getResources().getString(R.string.pension1), R.drawable.pension2, urls[4][18],
+                            "m2TamDesi", "00:38", "PFRDA"));
+                    break;
             }
         }
         else if(choice.equals("desirable"))
@@ -1080,10 +1084,6 @@ public class SubModule2 extends AppCompatActivity {
                             "m1TamDesi", "-", "-"));
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.family3), R.drawable.family3, urls[4][17],
                             "m1TamDesi", "-", "-"));
-                    break;
-                case "Pension"://image ok
-                    blocks.add(new SubModule2Blocks(getResources().getString(R.string.pension1), R.drawable.pension2, urls[4][18],
-                            "m2TamDesi", "00:38", "PFRDA"));
                     break;
                 case "Consumer Beware"://image ok
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.customerliable), R.drawable.consumer4hin, urls[4][19],
@@ -1198,6 +1198,10 @@ public class SubModule2 extends AppCompatActivity {
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.digital7), R.drawable.consumer7hin, urls[5][14],
                             "m4KanComp", "-", "-"));
                     break;
+                case "Pension"://image ok
+                    blocks.add(new SubModule2Blocks(getResources().getString(R.string.pension1), R.drawable.pension2, urls[5][18],
+                            "m2KanDesi", "00:38", "NPS"));
+                    break;
             }
         }
         else if(choice.equals("desirable"))
@@ -1210,10 +1214,6 @@ public class SubModule2 extends AppCompatActivity {
                             "m1KanDesi", "-", "-"));
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.family3), R.drawable.family3, urls[5][17],
                             "m1KanDesi", "-", "-"));
-                    break;
-                case "Pension"://image ok
-                    blocks.add(new SubModule2Blocks(getResources().getString(R.string.pension1), R.drawable.pension2, urls[5][18],
-                            "m2KanDesi", "00:38", "NPS"));
                     break;
                 case "Consumer Beware"://image ok
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.con1), R.drawable.consumer4hin, urls[5][19],
@@ -1322,6 +1322,10 @@ public class SubModule2 extends AppCompatActivity {
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.loan2), R.drawable.consumer7hin, urls[6][14],
                             "m4OriComp", "-", "-"));
                     break;
+                case "Pension"://image ok
+                    blocks.add(new SubModule2Blocks(getResources().getString(R.string.saving1), R.drawable.pension2, urls[6][18],
+                            "m2OriDesi", "00:31", "PFRDA"));
+                    break;
             }
         }
         else if(choice.equals("desirable"))
@@ -1334,10 +1338,6 @@ public class SubModule2 extends AppCompatActivity {
                             "m1OriDesi", "-", "-"));
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.family3), R.drawable.family3, urls[6][17],
                             "m1OriDesi", "-", "-"));
-                    break;
-                case "Pension"://image ok
-                    blocks.add(new SubModule2Blocks(getResources().getString(R.string.saving1), R.drawable.pension2, urls[6][18],
-                            "m2OriDesi", "00:31", "PFRDA"));
                     break;
                 case "Consumer Beware"://image ok
                     blocks.add(new SubModule2Blocks(getResources().getString(R.string.loan1), R.drawable.consumer4hin, urls[6][19],

@@ -22,9 +22,9 @@ import java.util.Locale;
 public class ModuleCompulsory extends AppCompatActivity {
 
 
-    RelativeLayout comp_rlModule1, comp_rlModule2, comp_rlModule3, comp_rlModule4;
-    TextView comp_tvViewsModule1, comp_tvViewsModule2, comp_tvViewsModule3, comp_tvViewsModule4;
-    TextView comp_tvPer1, comp_tvPer2, comp_tvPer3, comp_tvPer4;
+    RelativeLayout comp_rlModule1, comp_rlModule2, comp_rlModule3, comp_rlModule4,des_rlModule2;
+    TextView comp_tvViewsModule1, comp_tvViewsModule2, comp_tvViewsModule3, comp_tvViewsModule4,desi_tvViewsModule2;
+    TextView comp_tvPer1, comp_tvPer2, comp_tvPer3, comp_tvPer4, desi_tvPer2;
     String gName,gId,clicked,groupNameAndID,lang;
     SharedPreferences preferences;
     LinearLayout llGrpNameAndId;
@@ -73,16 +73,19 @@ public class ModuleCompulsory extends AppCompatActivity {
         comp_tvViewsModule2 = findViewById(R.id.comp_tvViewsModule2);
         comp_tvViewsModule3 = findViewById(R.id.comp_tvViewsModule3);
         comp_tvViewsModule4 = findViewById(R.id.comp_tvViewsModule4);
+        desi_tvViewsModule2 = findViewById(R.id.desi_tvViewsModule2);
 
         comp_tvPer1 = findViewById(R.id.comp_tvPer1);
         comp_tvPer2 = findViewById(R.id.comp_tvPer2);
         comp_tvPer3 = findViewById(R.id.comp_tvPer3);
         comp_tvPer4 = findViewById(R.id.comp_tvPer4);
+        desi_tvPer2 = findViewById(R.id.desi_tvPer2);
 
         comp_rlModule1 = findViewById(R.id.comp_rlModule1);
         comp_rlModule2 = findViewById(R.id.comp_rlModule2);
         comp_rlModule3 = findViewById(R.id.comp_rlModule3);
         comp_rlModule4 = findViewById(R.id.comp_rlModule4);
+        des_rlModule2 = findViewById(R.id.des_rlModule2);
 
         //percentage calculation
         percentageCalculation(viewed);
@@ -109,6 +112,13 @@ public class ModuleCompulsory extends AppCompatActivity {
         comp_rlModule4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { openingSubmodule("Digital Transaction");
+
+            }
+        });
+        des_rlModule2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openingSubmodule("Pension");
 
             }
         });
@@ -167,6 +177,7 @@ public class ModuleCompulsory extends AppCompatActivity {
                 module2Percentage(3, 6, 0, 3);
                 module3Percentage(6, 9, 0, 3);
                 module4Percentage(9, 14, 0, 5);
+                module5Percentage(17, 18, 0, 1);
                 break;
             //percentage calculation for hindi language
             case "hi":
@@ -174,6 +185,7 @@ public class ModuleCompulsory extends AppCompatActivity {
                 module2Percentage(3, 5, 1, 2);
                 module3Percentage(5, 8, 1, 3);
                 module4Percentage(8, 15, 1, 7);
+                module5Percentage(17, 18, 1, 1);
                 break;
             //percentage calculation for gujarati language
             case "gu":
@@ -181,6 +193,7 @@ public class ModuleCompulsory extends AppCompatActivity {
                 module2Percentage(3, 5, 2, 2);
                 module3Percentage(5, 8, 2, 3);
                 module4Percentage(8, 16, 2, 8);
+                module5Percentage(19, 20, 2, 1);
                 break;
             //percentage calculation for marathi language
             case "mr":
@@ -188,6 +201,7 @@ public class ModuleCompulsory extends AppCompatActivity {
                 module2Percentage(3, 5, 3, 2);
                 module3Percentage(5, 8, 3, 3);
                 module4Percentage(8, 15, 3, 7);
+                module5Percentage(18, 19, 3, 1);
                 break;
             //percentage calculation for tamil language
             case "ta":
@@ -195,6 +209,7 @@ public class ModuleCompulsory extends AppCompatActivity {
                 module2Percentage(3, 5, 4, 2);
                 module3Percentage(5, 8, 4, 3);
                 module4Percentage(8, 15, 4, 7);
+                module5Percentage(18, 19, 4, 1);
                 break;
             //percentage calculation for kannada language
             case "kn":
@@ -202,6 +217,7 @@ public class ModuleCompulsory extends AppCompatActivity {
                 module2Percentage(3, 5, 5, 2);
                 module3Percentage(5, 8, 5, 3);
                 module4Percentage(8, 15, 5, 7);
+                module5Percentage(18, 19, 5, 1);
                 break;
             //percentage calculation for oriya language
             case "or":
@@ -209,6 +225,7 @@ public class ModuleCompulsory extends AppCompatActivity {
                 module2Percentage(3, 5, 6, 2);
                 module3Percentage(5, 8, 6, 3);
                 module4Percentage(8, 15, 6, 7);
+                module5Percentage(18, 19, 6, 1);
                 break;
         }
 
@@ -273,6 +290,21 @@ public class ModuleCompulsory extends AppCompatActivity {
             comp_tvPer4.setTextColor(getResources().getColor(R.color.green));
         else
             comp_tvPer4.setTextColor(getResources().getColor(R.color.red));
+    }
+    public void module5Percentage(int loopStart, int loopEnd,int whichLang,int noOfVideos){
+        cnt1 = 0;
+        for (i = loopStart; i < loopEnd; i++) {
+            if (viewed[whichLang][i] == 1)
+                cnt1++;
+        }
+        pert1 = (cnt1 * 100) / noOfVideos;
+        desi_tvViewsModule2.setText(getResources().getString(R.string.viewed) + "  " + cnt1
+                + "    " + getResources().getString(R.string.total) + "  " + String.valueOf(noOfVideos));
+        desi_tvPer2.setText(pert1 + "%");
+        if (pert1 >= 50)
+            desi_tvPer2.setTextColor(getResources().getColor(R.color.green));
+        else
+            desi_tvPer2.setTextColor(getResources().getColor(R.color.red));
     }
 
     public void openingSubmodule(String moduleName){

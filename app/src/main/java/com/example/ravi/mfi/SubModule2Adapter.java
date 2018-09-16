@@ -93,7 +93,10 @@ public class SubModule2Adapter extends RecyclerView.Adapter<SubModule2Adapter.My
 
         viewed = getFromPref(preferenceString);
 
-
+        //this switch case is for percentage modification
+        //viewed[whichLang][offset+position]
+        //for example: if the second video of first module of compulsory section of english language is viewed
+        //then we will set viewed[0][0+1]=1 as whichlang is 0 for english. offset is 0 for firstmodule of compulsory and position is 1 for second video
         switch (language) {
             case "en":
                 whichLang = 0;

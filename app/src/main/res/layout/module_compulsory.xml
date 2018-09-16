@@ -245,5 +245,55 @@
                 android:id="@+id/comp_tvPer4"/>
         </RelativeLayout>
 
+        <!--pension-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/module_border"
+            android:clickable="true"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/des_rlModule2">
+
+            <ImageView
+                android:id="@+id/des_ivModule2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/module_icon5" />
+
+            <TextView
+                android:id="@+id/des_tvModule2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/des_ivModule2"
+                android:layout_toRightOf="@+id/des_ivModule2"
+                android:text="@string/pension"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/desi_tvViewsModule2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/des_tvModule2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/des_tvModule2"
+                android:layout_marginBottom="2dp"
+                android:text="@string/initial_viewed2"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/border_percentage"
+                android:text="0%"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/desi_tvPer2"/>
+        </RelativeLayout>
     </LinearLayout>
 </ScrollView>
