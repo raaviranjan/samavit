@@ -166,6 +166,8 @@
     <string name="choices">Choices</string>
     <string name="mfi_client_title">MFI Client</string>
     <string name="client_id">Client ID</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="phone_no_client">Phone No.</string>
 
     <string-array name="before_questions">
         <item>I find it more satisfying to spend money than to save it for the long term.</item><!--Financial Planning-->

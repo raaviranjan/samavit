@@ -82,10 +82,6 @@ public class MfiClientReg extends AppCompatActivity {
         client_llMFIName = findViewById(R.id.client_llMFIName);
         client_id=findViewById(R.id.et_client_id);
 
-
-
-
-
         //dropdown for name of mfi
         spinnerMFI = findViewById(R.id.client_spinnerMFI);
         ArrayAdapter adapter0 = ArrayAdapter.createFromResource(this, R.array.mfi_name, android.R.layout.simple_spinner_item);

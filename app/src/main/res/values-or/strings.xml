@@ -13,4 +13,6 @@
     <string name="choices">Choices</string>
     <string name="mfi_client_title">MFI Client</string>
     <string name="client_id">Client ID</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="phone_no_client">Phone No.</string>
 </resources>

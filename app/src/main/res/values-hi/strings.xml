@@ -174,6 +174,8 @@
     <string name="currency_literacy">मुद्रा साक्षरता</string>
     <string name="choices">विकल्प</string>
     <string name="client_id">क्लाइंट आईडी</string>
+    <string name="phone_no">फोन नंबर</string>
+    <string name="phone_no_client">फोन नंबर</string>
 
     <string-array name="before_questions">
         <item>हमें आज में जीना चाहिए, कल की कल देखेंगे।</item><!--वित्तीय योजना और लक्ष्य:-->
